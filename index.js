@@ -1,26 +1,17 @@
 #!/usr/bin/env node
 
 var thisPackage = require('./package.json');
-// For running bash well: https://www.npmjs.com/package/executive
-
-// currency etl
-// One --stage per data source.
-// currency etl --stage names
-// currency etl --stage rates
-// currency etl --stage flags
-// currency etl --stage locales
-// currency serve
 
 function etlOpts(yargs) {
   return yargs
     .option('stage', {
       alias: 's',
       'default': 'all',
-      describe: 'The ETL stage to run.'
-    })
-    .array('stage')
-    .choices('stage', ['foo', 'bar', 'baz'])
-    .requiresArg('stage');
+      describe: 'The ETL stage to run. There is one stage per data source.',
+      array: true,
+      choices: ['names'], // rates, flags, locales
+      requiresArg: true
+    });
 }
 
 function etlCommand(argv) {
