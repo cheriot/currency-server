@@ -1,0 +1,86 @@
+Usage
+npm install -g
+    Puts the executable on the system's path.
+npm link
+    Symlink on path instead of an executable. For development.
+currency --help
+./index.js --help
+
+
+Data Priorities
+1. Display the name of the currency instead of the code.
+2. Display the flag of the issueing country.
+3. Search by country code, country name, currency name, currency code, and country aliases.
+4. Use the currency's symbol when displaying a value.
+5. Customize the default currency selection by looking at the device locale.
+6. Use the correct minor unit number in display.
+
+Steps:
+1. single table of currency code, currency name
+2. add to single table a flag_id/country_code
+3. add to single table a currency symbol
+4. add to single table the minor digits count
+5. new table of two digit country code, currency (for initial currency selection)
+
+Tables needed
+1:1 currency, currency name, currency code, flag, symbol
+1:* currency, country
+1:* country, aliases
+1:* language code (locale), country
+
+Potential Json
+{
+    created_at: <datetime>,
+    currencies: [
+        {
+            code: <code>,
+            name: <name>,
+            symbol: <unicode>,
+            minor_digits: <2|0>,
+            flag_territory_code: <flag_id>,
+            countries: [
+                {
+                    code: <code>,
+                    name: <name>,
+                    name_aliases: ["", ""]
+                    locales: ["", ""]
+                    geo_something: <???>
+                }
+            ]
+        }
+    ]
+}
+
+
+Currency Code, Currency Name, Country Name, Iso's ID
+http://www.currency-iso.org/dam/downloads/lists/list_one.xml
+
+
+Two digit country codes. Can this map from locale to country?
+http://www.iso.org/iso/country_codes
+downloadable: http://data.okfn.org/data/core/country-list
+https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+
+For official locale details, use Unicode Common Locale Data Repository (CLDR).
+http://cldr.unicode.org/index/downloads
+Download the core.zip. The data is in main/*.xml
+
+
+How to map from a language without a territory code to a country?
+Manually:
+http://download1.parallels.com/SiteBuilder/Windows/docs/3.2/en_US/sitebulder-3.2-win-sdk-localization-pack-creation-guide/30801.htm
+Language code to name:
+http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+
+
+A bunch of random stuff in one file
+http://download.geonames.org/export/dump/countryInfo.txt
+
+
+Flags, even squares!
+https://github.com/lipis/flag-icon-css
+
+
+Locale to country mapping. Does it actually work?
+https://github.com/maxmind/Locale-Country-Multilingual

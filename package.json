@@ -1,0 +1,25 @@
+{
+  "name": "currency-calculator-server",
+  "version": "0.0.1",
+  "description": "ETL currency related data and api server.",
+  "main": "index.js",
+  "bin": {
+    "currency": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheriot/currency-calculator-server.git"
+  },
+  "author": "Christopher Heriot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheriot/currency-calculator-server/issues"
+  },
+  "homepage": "https://github.com/cheriot/currency-calculator-server#readme",
+  "dependencies": {
+    "yargs": "^4.6.0"
+  }
+}
