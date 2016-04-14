@@ -1,0 +1,2117 @@
+[
+    {
+        "code": "AFN",
+        "name": "Afghani",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "AFGHANISTAN",
+                "isoId": "971"
+            }
+        ]
+    },
+    {
+        "code": "EUR",
+        "name": "Euro",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ÅLAND ISLANDS",
+                "isoId": "978"
+            },
+            {
+                "name": "ANDORRA",
+                "isoId": "978"
+            },
+            {
+                "name": "AUSTRIA",
+                "isoId": "978"
+            },
+            {
+                "name": "BELGIUM",
+                "isoId": "978"
+            },
+            {
+                "name": "CYPRUS",
+                "isoId": "978"
+            },
+            {
+                "name": "ESTONIA",
+                "isoId": "978"
+            },
+            {
+                "name": "EUROPEAN UNION",
+                "isoId": "978"
+            },
+            {
+                "name": "FINLAND",
+                "isoId": "978"
+            },
+            {
+                "name": "FRANCE",
+                "isoId": "978"
+            },
+            {
+                "name": "FRENCH GUIANA",
+                "isoId": "978"
+            },
+            {
+                "name": "FRENCH SOUTHERN TERRITORIES (THE)",
+                "isoId": "978"
+            },
+            {
+                "name": "GERMANY",
+                "isoId": "978"
+            },
+            {
+                "name": "GREECE",
+                "isoId": "978"
+            },
+            {
+                "name": "GUADELOUPE",
+                "isoId": "978"
+            },
+            {
+                "name": "HOLY SEE (THE)",
+                "isoId": "978"
+            },
+            {
+                "name": "IRELAND",
+                "isoId": "978"
+            },
+            {
+                "name": "ITALY",
+                "isoId": "978"
+            },
+            {
+                "name": "LATVIA",
+                "isoId": "978"
+            },
+            {
+                "name": "LITHUANIA",
+                "isoId": "978"
+            },
+            {
+                "name": "LUXEMBOURG",
+                "isoId": "978"
+            },
+            {
+                "name": "MALTA",
+                "isoId": "978"
+            },
+            {
+                "name": "MARTINIQUE",
+                "isoId": "978"
+            },
+            {
+                "name": "MAYOTTE",
+                "isoId": "978"
+            },
+            {
+                "name": "MONACO",
+                "isoId": "978"
+            },
+            {
+                "name": "MONTENEGRO",
+                "isoId": "978"
+            },
+            {
+                "name": "NETHERLANDS (THE)",
+                "isoId": "978"
+            },
+            {
+                "name": "PORTUGAL",
+                "isoId": "978"
+            },
+            {
+                "name": "RÉUNION",
+                "isoId": "978"
+            },
+            {
+                "name": "SAINT BARTHÉLEMY",
+                "isoId": "978"
+            },
+            {
+                "name": "SAINT MARTIN (FRENCH PART)",
+                "isoId": "978"
+            },
+            {
+                "name": "SAINT PIERRE AND MIQUELON",
+                "isoId": "978"
+            },
+            {
+                "name": "SAN MARINO",
+                "isoId": "978"
+            },
+            {
+                "name": "SLOVAKIA",
+                "isoId": "978"
+            },
+            {
+                "name": "SLOVENIA",
+                "isoId": "978"
+            },
+            {
+                "name": "SPAIN",
+                "isoId": "978"
+            }
+        ]
+    },
+    {
+        "code": "ALL",
+        "name": "Lek",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ALBANIA",
+                "isoId": "008"
+            }
+        ]
+    },
+    {
+        "code": "DZD",
+        "name": "Algerian Dinar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ALGERIA",
+                "isoId": "012"
+            }
+        ]
+    },
+    {
+        "code": "USD",
+        "name": "US Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "AMERICAN SAMOA",
+                "isoId": "840"
+            },
+            {
+                "name": "BONAIRE, SINT EUSTATIUS AND SABA",
+                "isoId": "840"
+            },
+            {
+                "name": "BRITISH INDIAN OCEAN TERRITORY (THE)",
+                "isoId": "840"
+            },
+            {
+                "name": "ECUADOR",
+                "isoId": "840"
+            },
+            {
+                "name": "EL SALVADOR",
+                "isoId": "840"
+            },
+            {
+                "name": "GUAM",
+                "isoId": "840"
+            },
+            {
+                "name": "HAITI",
+                "isoId": "840"
+            },
+            {
+                "name": "MARSHALL ISLANDS (THE)",
+                "isoId": "840"
+            },
+            {
+                "name": "MICRONESIA (FEDERATED STATES OF)",
+                "isoId": "840"
+            },
+            {
+                "name": "NORTHERN MARIANA ISLANDS (THE)",
+                "isoId": "840"
+            },
+            {
+                "name": "PALAU",
+                "isoId": "840"
+            },
+            {
+                "name": "PANAMA",
+                "isoId": "840"
+            },
+            {
+                "name": "PUERTO RICO",
+                "isoId": "840"
+            },
+            {
+                "name": "TIMOR-LESTE",
+                "isoId": "840"
+            },
+            {
+                "name": "TURKS AND CAICOS ISLANDS (THE)",
+                "isoId": "840"
+            },
+            {
+                "name": "UNITED STATES MINOR OUTLYING ISLANDS (THE)",
+                "isoId": "840"
+            },
+            {
+                "name": "UNITED STATES OF AMERICA (THE)",
+                "isoId": "840"
+            },
+            {
+                "name": "VIRGIN ISLANDS (BRITISH)",
+                "isoId": "840"
+            },
+            {
+                "name": "VIRGIN ISLANDS (U.S.)",
+                "isoId": "840"
+            }
+        ]
+    },
+    {
+        "code": "AOA",
+        "name": "Kwanza",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ANGOLA",
+                "isoId": "973"
+            }
+        ]
+    },
+    {
+        "code": "XCD",
+        "name": "East Caribbean Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ANGUILLA",
+                "isoId": "951"
+            },
+            {
+                "name": "ANTIGUA AND BARBUDA",
+                "isoId": "951"
+            },
+            {
+                "name": "DOMINICA",
+                "isoId": "951"
+            },
+            {
+                "name": "GRENADA",
+                "isoId": "951"
+            },
+            {
+                "name": "MONTSERRAT",
+                "isoId": "951"
+            },
+            {
+                "name": "SAINT KITTS AND NEVIS",
+                "isoId": "951"
+            },
+            {
+                "name": "SAINT LUCIA",
+                "isoId": "951"
+            },
+            {
+                "name": "SAINT VINCENT AND THE GRENADINES",
+                "isoId": "951"
+            }
+        ]
+    },
+    {
+        "code": "ARS",
+        "name": "Argentine Peso",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ARGENTINA",
+                "isoId": "032"
+            }
+        ]
+    },
+    {
+        "code": "AMD",
+        "name": "Armenian Dram",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ARMENIA",
+                "isoId": "051"
+            }
+        ]
+    },
+    {
+        "code": "AWG",
+        "name": "Aruban Florin",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ARUBA",
+                "isoId": "533"
+            }
+        ]
+    },
+    {
+        "code": "AUD",
+        "name": "Australian Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "AUSTRALIA",
+                "isoId": "036"
+            },
+            {
+                "name": "CHRISTMAS ISLAND",
+                "isoId": "036"
+            },
+            {
+                "name": "COCOS (KEELING) ISLANDS (THE)",
+                "isoId": "036"
+            },
+            {
+                "name": "HEARD ISLAND AND McDONALD ISLANDS",
+                "isoId": "036"
+            },
+            {
+                "name": "KIRIBATI",
+                "isoId": "036"
+            },
+            {
+                "name": "NAURU",
+                "isoId": "036"
+            },
+            {
+                "name": "NORFOLK ISLAND",
+                "isoId": "036"
+            },
+            {
+                "name": "TUVALU",
+                "isoId": "036"
+            }
+        ]
+    },
+    {
+        "code": "AZN",
+        "name": "Azerbaijanian Manat",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "AZERBAIJAN",
+                "isoId": "944"
+            }
+        ]
+    },
+    {
+        "code": "BSD",
+        "name": "Bahamian Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BAHAMAS (THE)",
+                "isoId": "044"
+            }
+        ]
+    },
+    {
+        "code": "BHD",
+        "name": "Bahraini Dinar",
+        "minorUnits": "3",
+        "countries": [
+            {
+                "name": "BAHRAIN",
+                "isoId": "048"
+            }
+        ]
+    },
+    {
+        "code": "BDT",
+        "name": "Taka",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BANGLADESH",
+                "isoId": "050"
+            }
+        ]
+    },
+    {
+        "code": "BBD",
+        "name": "Barbados Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BARBADOS",
+                "isoId": "052"
+            }
+        ]
+    },
+    {
+        "code": "BYR",
+        "name": "Belarusian Ruble",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "BELARUS",
+                "isoId": "974"
+            }
+        ]
+    },
+    {
+        "code": "BZD",
+        "name": "Belize Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BELIZE",
+                "isoId": "084"
+            }
+        ]
+    },
+    {
+        "code": "XOF",
+        "name": "CFA Franc BCEAO",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "BENIN",
+                "isoId": "952"
+            },
+            {
+                "name": "BURKINA FASO",
+                "isoId": "952"
+            },
+            {
+                "name": "CÔTE D'IVOIRE",
+                "isoId": "952"
+            },
+            {
+                "name": "GUINEA-BISSAU",
+                "isoId": "952"
+            },
+            {
+                "name": "MALI",
+                "isoId": "952"
+            },
+            {
+                "name": "NIGER (THE)",
+                "isoId": "952"
+            },
+            {
+                "name": "SENEGAL",
+                "isoId": "952"
+            },
+            {
+                "name": "TOGO",
+                "isoId": "952"
+            }
+        ]
+    },
+    {
+        "code": "BMD",
+        "name": "Bermudian Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BERMUDA",
+                "isoId": "060"
+            }
+        ]
+    },
+    {
+        "code": "INR",
+        "name": "Indian Rupee",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BHUTAN",
+                "isoId": "356"
+            },
+            {
+                "name": "INDIA",
+                "isoId": "356"
+            }
+        ]
+    },
+    {
+        "code": "BTN",
+        "name": "Ngultrum",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BHUTAN",
+                "isoId": "064"
+            }
+        ]
+    },
+    {
+        "code": "BOB",
+        "name": "Boliviano",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BOLIVIA (PLURINATIONAL STATE OF)",
+                "isoId": "068"
+            }
+        ]
+    },
+    {
+        "code": "BAM",
+        "name": "Convertible Mark",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BOSNIA AND HERZEGOVINA",
+                "isoId": "977"
+            }
+        ]
+    },
+    {
+        "code": "BWP",
+        "name": "Pula",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BOTSWANA",
+                "isoId": "072"
+            }
+        ]
+    },
+    {
+        "code": "NOK",
+        "name": "Norwegian Krone",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BOUVET ISLAND",
+                "isoId": "578"
+            },
+            {
+                "name": "NORWAY",
+                "isoId": "578"
+            },
+            {
+                "name": "SVALBARD AND JAN MAYEN",
+                "isoId": "578"
+            }
+        ]
+    },
+    {
+        "code": "BRL",
+        "name": "Brazilian Real",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BRAZIL",
+                "isoId": "986"
+            }
+        ]
+    },
+    {
+        "code": "BND",
+        "name": "Brunei Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BRUNEI DARUSSALAM",
+                "isoId": "096"
+            }
+        ]
+    },
+    {
+        "code": "BGN",
+        "name": "Bulgarian Lev",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "BULGARIA",
+                "isoId": "975"
+            }
+        ]
+    },
+    {
+        "code": "BIF",
+        "name": "Burundi Franc",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "BURUNDI",
+                "isoId": "108"
+            }
+        ]
+    },
+    {
+        "code": "CVE",
+        "name": "Cabo Verde Escudo",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CABO VERDE",
+                "isoId": "132"
+            }
+        ]
+    },
+    {
+        "code": "KHR",
+        "name": "Riel",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CAMBODIA",
+                "isoId": "116"
+            }
+        ]
+    },
+    {
+        "code": "XAF",
+        "name": "CFA Franc BEAC",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "CAMEROON",
+                "isoId": "950"
+            },
+            {
+                "name": "CENTRAL AFRICAN REPUBLIC (THE)",
+                "isoId": "950"
+            },
+            {
+                "name": "CHAD",
+                "isoId": "950"
+            },
+            {
+                "name": "CONGO (THE)",
+                "isoId": "950"
+            },
+            {
+                "name": "EQUATORIAL GUINEA",
+                "isoId": "950"
+            },
+            {
+                "name": "GABON",
+                "isoId": "950"
+            }
+        ]
+    },
+    {
+        "code": "CAD",
+        "name": "Canadian Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CANADA",
+                "isoId": "124"
+            }
+        ]
+    },
+    {
+        "code": "KYD",
+        "name": "Cayman Islands Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CAYMAN ISLANDS (THE)",
+                "isoId": "136"
+            }
+        ]
+    },
+    {
+        "code": "CLP",
+        "name": "Chilean Peso",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "CHILE",
+                "isoId": "152"
+            }
+        ]
+    },
+    {
+        "code": "CNY",
+        "name": "Yuan Renminbi",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CHINA",
+                "isoId": "156"
+            }
+        ]
+    },
+    {
+        "code": "COP",
+        "name": "Colombian Peso",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "COLOMBIA",
+                "isoId": "170"
+            }
+        ]
+    },
+    {
+        "code": "KMF",
+        "name": "Comoro Franc",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "COMOROS (THE)",
+                "isoId": "174"
+            }
+        ]
+    },
+    {
+        "code": "CDF",
+        "name": "Congolese Franc",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CONGO (THE DEMOCRATIC REPUBLIC OF THE)",
+                "isoId": "976"
+            }
+        ]
+    },
+    {
+        "code": "NZD",
+        "name": "New Zealand Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "COOK ISLANDS (THE)",
+                "isoId": "554"
+            },
+            {
+                "name": "NEW ZEALAND",
+                "isoId": "554"
+            },
+            {
+                "name": "NIUE",
+                "isoId": "554"
+            },
+            {
+                "name": "PITCAIRN",
+                "isoId": "554"
+            },
+            {
+                "name": "TOKELAU",
+                "isoId": "554"
+            }
+        ]
+    },
+    {
+        "code": "CRC",
+        "name": "Costa Rican Colon",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "COSTA RICA",
+                "isoId": "188"
+            }
+        ]
+    },
+    {
+        "code": "HRK",
+        "name": "Kuna",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CROATIA",
+                "isoId": "191"
+            }
+        ]
+    },
+    {
+        "code": "CUP",
+        "name": "Cuban Peso",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CUBA",
+                "isoId": "192"
+            }
+        ]
+    },
+    {
+        "code": "CUC",
+        "name": "Peso Convertible",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CUBA",
+                "isoId": "931"
+            }
+        ]
+    },
+    {
+        "code": "ANG",
+        "name": "Netherlands Antillean Guilder",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CURAÇAO",
+                "isoId": "532"
+            },
+            {
+                "name": "SINT MAARTEN (DUTCH PART)",
+                "isoId": "532"
+            }
+        ]
+    },
+    {
+        "code": "CZK",
+        "name": "Czech Koruna",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "CZECH REPUBLIC (THE)",
+                "isoId": "203"
+            }
+        ]
+    },
+    {
+        "code": "DKK",
+        "name": "Danish Krone",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "DENMARK",
+                "isoId": "208"
+            },
+            {
+                "name": "FAROE ISLANDS (THE)",
+                "isoId": "208"
+            },
+            {
+                "name": "GREENLAND",
+                "isoId": "208"
+            }
+        ]
+    },
+    {
+        "code": "DJF",
+        "name": "Djibouti Franc",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "DJIBOUTI",
+                "isoId": "262"
+            }
+        ]
+    },
+    {
+        "code": "DOP",
+        "name": "Dominican Peso",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "DOMINICAN REPUBLIC (THE)",
+                "isoId": "214"
+            }
+        ]
+    },
+    {
+        "code": "EGP",
+        "name": "Egyptian Pound",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "EGYPT",
+                "isoId": "818"
+            }
+        ]
+    },
+    {
+        "code": "SVC",
+        "name": "El Salvador Colon",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "EL SALVADOR",
+                "isoId": "222"
+            }
+        ]
+    },
+    {
+        "code": "ERN",
+        "name": "Nakfa",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ERITREA",
+                "isoId": "232"
+            }
+        ]
+    },
+    {
+        "code": "ETB",
+        "name": "Ethiopian Birr",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ETHIOPIA",
+                "isoId": "230"
+            }
+        ]
+    },
+    {
+        "code": "FKP",
+        "name": "Falkland Islands Pound",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "FALKLAND ISLANDS (THE) [MALVINAS]",
+                "isoId": "238"
+            }
+        ]
+    },
+    {
+        "code": "FJD",
+        "name": "Fiji Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "FIJI",
+                "isoId": "242"
+            }
+        ]
+    },
+    {
+        "code": "XPF",
+        "name": "CFP Franc",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "FRENCH POLYNESIA",
+                "isoId": "953"
+            },
+            {
+                "name": "NEW CALEDONIA",
+                "isoId": "953"
+            },
+            {
+                "name": "WALLIS AND FUTUNA",
+                "isoId": "953"
+            }
+        ]
+    },
+    {
+        "code": "GMD",
+        "name": "Dalasi",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "GAMBIA (THE)",
+                "isoId": "270"
+            }
+        ]
+    },
+    {
+        "code": "GEL",
+        "name": "Lari",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "GEORGIA",
+                "isoId": "981"
+            }
+        ]
+    },
+    {
+        "code": "GHS",
+        "name": "Ghana Cedi",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "GHANA",
+                "isoId": "936"
+            }
+        ]
+    },
+    {
+        "code": "GIP",
+        "name": "Gibraltar Pound",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "GIBRALTAR",
+                "isoId": "292"
+            }
+        ]
+    },
+    {
+        "code": "GTQ",
+        "name": "Quetzal",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "GUATEMALA",
+                "isoId": "320"
+            }
+        ]
+    },
+    {
+        "code": "GBP",
+        "name": "Pound Sterling",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "GUERNSEY",
+                "isoId": "826"
+            },
+            {
+                "name": "ISLE OF MAN",
+                "isoId": "826"
+            },
+            {
+                "name": "JERSEY",
+                "isoId": "826"
+            },
+            {
+                "name": "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)",
+                "isoId": "826"
+            }
+        ]
+    },
+    {
+        "code": "GNF",
+        "name": "Guinea Franc",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "GUINEA",
+                "isoId": "324"
+            }
+        ]
+    },
+    {
+        "code": "GYD",
+        "name": "Guyana Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "GUYANA",
+                "isoId": "328"
+            }
+        ]
+    },
+    {
+        "code": "HTG",
+        "name": "Gourde",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "HAITI",
+                "isoId": "332"
+            }
+        ]
+    },
+    {
+        "code": "HNL",
+        "name": "Lempira",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "HONDURAS",
+                "isoId": "340"
+            }
+        ]
+    },
+    {
+        "code": "HKD",
+        "name": "Hong Kong Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "HONG KONG",
+                "isoId": "344"
+            }
+        ]
+    },
+    {
+        "code": "HUF",
+        "name": "Forint",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "HUNGARY",
+                "isoId": "348"
+            }
+        ]
+    },
+    {
+        "code": "ISK",
+        "name": "Iceland Krona",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "ICELAND",
+                "isoId": "352"
+            }
+        ]
+    },
+    {
+        "code": "IDR",
+        "name": "Rupiah",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "INDONESIA",
+                "isoId": "360"
+            }
+        ]
+    },
+    {
+        "code": "IRR",
+        "name": "Iranian Rial",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "IRAN (ISLAMIC REPUBLIC OF)",
+                "isoId": "364"
+            }
+        ]
+    },
+    {
+        "code": "IQD",
+        "name": "Iraqi Dinar",
+        "minorUnits": "3",
+        "countries": [
+            {
+                "name": "IRAQ",
+                "isoId": "368"
+            }
+        ]
+    },
+    {
+        "code": "ILS",
+        "name": "New Israeli Sheqel",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ISRAEL",
+                "isoId": "376"
+            }
+        ]
+    },
+    {
+        "code": "JMD",
+        "name": "Jamaican Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "JAMAICA",
+                "isoId": "388"
+            }
+        ]
+    },
+    {
+        "code": "JPY",
+        "name": "Yen",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "JAPAN",
+                "isoId": "392"
+            }
+        ]
+    },
+    {
+        "code": "JOD",
+        "name": "Jordanian Dinar",
+        "minorUnits": "3",
+        "countries": [
+            {
+                "name": "JORDAN",
+                "isoId": "400"
+            }
+        ]
+    },
+    {
+        "code": "KZT",
+        "name": "Tenge",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "KAZAKHSTAN",
+                "isoId": "398"
+            }
+        ]
+    },
+    {
+        "code": "KES",
+        "name": "Kenyan Shilling",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "KENYA",
+                "isoId": "404"
+            }
+        ]
+    },
+    {
+        "code": "KPW",
+        "name": "North Korean Won",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "KOREA (THE DEMOCRATIC PEOPLE’S REPUBLIC OF)",
+                "isoId": "408"
+            }
+        ]
+    },
+    {
+        "code": "KRW",
+        "name": "Won",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "KOREA (THE REPUBLIC OF)",
+                "isoId": "410"
+            }
+        ]
+    },
+    {
+        "code": "KWD",
+        "name": "Kuwaiti Dinar",
+        "minorUnits": "3",
+        "countries": [
+            {
+                "name": "KUWAIT",
+                "isoId": "414"
+            }
+        ]
+    },
+    {
+        "code": "KGS",
+        "name": "Som",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "KYRGYZSTAN",
+                "isoId": "417"
+            }
+        ]
+    },
+    {
+        "code": "LAK",
+        "name": "Kip",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "LAO PEOPLE’S DEMOCRATIC REPUBLIC (THE)",
+                "isoId": "418"
+            }
+        ]
+    },
+    {
+        "code": "LBP",
+        "name": "Lebanese Pound",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "LEBANON",
+                "isoId": "422"
+            }
+        ]
+    },
+    {
+        "code": "LSL",
+        "name": "Loti",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "LESOTHO",
+                "isoId": "426"
+            }
+        ]
+    },
+    {
+        "code": "ZAR",
+        "name": "Rand",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "LESOTHO",
+                "isoId": "710"
+            },
+            {
+                "name": "NAMIBIA",
+                "isoId": "710"
+            },
+            {
+                "name": "SOUTH AFRICA",
+                "isoId": "710"
+            }
+        ]
+    },
+    {
+        "code": "LRD",
+        "name": "Liberian Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "LIBERIA",
+                "isoId": "430"
+            }
+        ]
+    },
+    {
+        "code": "LYD",
+        "name": "Libyan Dinar",
+        "minorUnits": "3",
+        "countries": [
+            {
+                "name": "LIBYA",
+                "isoId": "434"
+            }
+        ]
+    },
+    {
+        "code": "CHF",
+        "name": "Swiss Franc",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "LIECHTENSTEIN",
+                "isoId": "756"
+            },
+            {
+                "name": "SWITZERLAND",
+                "isoId": "756"
+            }
+        ]
+    },
+    {
+        "code": "MOP",
+        "name": "Pataca",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MACAO",
+                "isoId": "446"
+            }
+        ]
+    },
+    {
+        "code": "MKD",
+        "name": "Denar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MACEDONIA (THE FORMER YUGOSLAV REPUBLIC OF)",
+                "isoId": "807"
+            }
+        ]
+    },
+    {
+        "code": "MGA",
+        "name": "Malagasy Ariary",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MADAGASCAR",
+                "isoId": "969"
+            }
+        ]
+    },
+    {
+        "code": "MWK",
+        "name": "Malawi Kwacha",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MALAWI",
+                "isoId": "454"
+            }
+        ]
+    },
+    {
+        "code": "MYR",
+        "name": "Malaysian Ringgit",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MALAYSIA",
+                "isoId": "458"
+            }
+        ]
+    },
+    {
+        "code": "MVR",
+        "name": "Rufiyaa",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MALDIVES",
+                "isoId": "462"
+            }
+        ]
+    },
+    {
+        "code": "MRO",
+        "name": "Ouguiya",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MAURITANIA",
+                "isoId": "478"
+            }
+        ]
+    },
+    {
+        "code": "MUR",
+        "name": "Mauritius Rupee",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MAURITIUS",
+                "isoId": "480"
+            }
+        ]
+    },
+    {
+        "code": "MXN",
+        "name": "Mexican Peso",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MEXICO",
+                "isoId": "484"
+            }
+        ]
+    },
+    {
+        "code": "MDL",
+        "name": "Moldovan Leu",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MOLDOVA (THE REPUBLIC OF)",
+                "isoId": "498"
+            }
+        ]
+    },
+    {
+        "code": "MNT",
+        "name": "Tugrik",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MONGOLIA",
+                "isoId": "496"
+            }
+        ]
+    },
+    {
+        "code": "MAD",
+        "name": "Moroccan Dirham",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MOROCCO",
+                "isoId": "504"
+            },
+            {
+                "name": "WESTERN SAHARA",
+                "isoId": "504"
+            }
+        ]
+    },
+    {
+        "code": "MZN",
+        "name": "Mozambique Metical",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MOZAMBIQUE",
+                "isoId": "943"
+            }
+        ]
+    },
+    {
+        "code": "MMK",
+        "name": "Kyat",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "MYANMAR",
+                "isoId": "104"
+            }
+        ]
+    },
+    {
+        "code": "NAD",
+        "name": "Namibia Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "NAMIBIA",
+                "isoId": "516"
+            }
+        ]
+    },
+    {
+        "code": "NPR",
+        "name": "Nepalese Rupee",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "NEPAL",
+                "isoId": "524"
+            }
+        ]
+    },
+    {
+        "code": "NIO",
+        "name": "Cordoba Oro",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "NICARAGUA",
+                "isoId": "558"
+            }
+        ]
+    },
+    {
+        "code": "NGN",
+        "name": "Naira",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "NIGERIA",
+                "isoId": "566"
+            }
+        ]
+    },
+    {
+        "code": "OMR",
+        "name": "Rial Omani",
+        "minorUnits": "3",
+        "countries": [
+            {
+                "name": "OMAN",
+                "isoId": "512"
+            }
+        ]
+    },
+    {
+        "code": "PKR",
+        "name": "Pakistan Rupee",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "PAKISTAN",
+                "isoId": "586"
+            }
+        ]
+    },
+    {
+        "code": "PAB",
+        "name": "Balboa",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "PANAMA",
+                "isoId": "590"
+            }
+        ]
+    },
+    {
+        "code": "PGK",
+        "name": "Kina",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "PAPUA NEW GUINEA",
+                "isoId": "598"
+            }
+        ]
+    },
+    {
+        "code": "PYG",
+        "name": "Guarani",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "PARAGUAY",
+                "isoId": "600"
+            }
+        ]
+    },
+    {
+        "code": "PEN",
+        "name": "Sol",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "PERU",
+                "isoId": "604"
+            }
+        ]
+    },
+    {
+        "code": "PHP",
+        "name": "Philippine Peso",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "PHILIPPINES (THE)",
+                "isoId": "608"
+            }
+        ]
+    },
+    {
+        "code": "PLN",
+        "name": "Zloty",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "POLAND",
+                "isoId": "985"
+            }
+        ]
+    },
+    {
+        "code": "QAR",
+        "name": "Qatari Rial",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "QATAR",
+                "isoId": "634"
+            }
+        ]
+    },
+    {
+        "code": "RON",
+        "name": "Romanian Leu",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ROMANIA",
+                "isoId": "946"
+            }
+        ]
+    },
+    {
+        "code": "RUB",
+        "name": "Russian Ruble",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "RUSSIAN FEDERATION (THE)",
+                "isoId": "643"
+            }
+        ]
+    },
+    {
+        "code": "RWF",
+        "name": "Rwanda Franc",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "RWANDA",
+                "isoId": "646"
+            }
+        ]
+    },
+    {
+        "code": "SHP",
+        "name": "Saint Helena Pound",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA",
+                "isoId": "654"
+            }
+        ]
+    },
+    {
+        "code": "WST",
+        "name": "Tala",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SAMOA",
+                "isoId": "882"
+            }
+        ]
+    },
+    {
+        "code": "STD",
+        "name": "Dobra",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SAO TOME AND PRINCIPE",
+                "isoId": "678"
+            }
+        ]
+    },
+    {
+        "code": "SAR",
+        "name": "Saudi Riyal",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SAUDI ARABIA",
+                "isoId": "682"
+            }
+        ]
+    },
+    {
+        "code": "RSD",
+        "name": "Serbian Dinar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SERBIA",
+                "isoId": "941"
+            }
+        ]
+    },
+    {
+        "code": "SCR",
+        "name": "Seychelles Rupee",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SEYCHELLES",
+                "isoId": "690"
+            }
+        ]
+    },
+    {
+        "code": "SLL",
+        "name": "Leone",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SIERRA LEONE",
+                "isoId": "694"
+            }
+        ]
+    },
+    {
+        "code": "SGD",
+        "name": "Singapore Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SINGAPORE",
+                "isoId": "702"
+            }
+        ]
+    },
+    {
+        "code": "SBD",
+        "name": "Solomon Islands Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SOLOMON ISLANDS",
+                "isoId": "090"
+            }
+        ]
+    },
+    {
+        "code": "SOS",
+        "name": "Somali Shilling",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SOMALIA",
+                "isoId": "706"
+            }
+        ]
+    },
+    {
+        "code": "SSP",
+        "name": "South Sudanese Pound",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SOUTH SUDAN",
+                "isoId": "728"
+            }
+        ]
+    },
+    {
+        "code": "LKR",
+        "name": "Sri Lanka Rupee",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SRI LANKA",
+                "isoId": "144"
+            }
+        ]
+    },
+    {
+        "code": "SDG",
+        "name": "Sudanese Pound",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SUDAN (THE)",
+                "isoId": "938"
+            }
+        ]
+    },
+    {
+        "code": "SRD",
+        "name": "Surinam Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SURINAME",
+                "isoId": "968"
+            }
+        ]
+    },
+    {
+        "code": "SZL",
+        "name": "Lilangeni",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SWAZILAND",
+                "isoId": "748"
+            }
+        ]
+    },
+    {
+        "code": "SEK",
+        "name": "Swedish Krona",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SWEDEN",
+                "isoId": "752"
+            }
+        ]
+    },
+    {
+        "code": "SYP",
+        "name": "Syrian Pound",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "SYRIAN ARAB REPUBLIC",
+                "isoId": "760"
+            }
+        ]
+    },
+    {
+        "code": "TWD",
+        "name": "New Taiwan Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "TAIWAN (PROVINCE OF CHINA)",
+                "isoId": "901"
+            }
+        ]
+    },
+    {
+        "code": "TJS",
+        "name": "Somoni",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "TAJIKISTAN",
+                "isoId": "972"
+            }
+        ]
+    },
+    {
+        "code": "TZS",
+        "name": "Tanzanian Shilling",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "TANZANIA, UNITED REPUBLIC OF",
+                "isoId": "834"
+            }
+        ]
+    },
+    {
+        "code": "THB",
+        "name": "Baht",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "THAILAND",
+                "isoId": "764"
+            }
+        ]
+    },
+    {
+        "code": "TOP",
+        "name": "Pa’anga",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "TONGA",
+                "isoId": "776"
+            }
+        ]
+    },
+    {
+        "code": "TTD",
+        "name": "Trinidad and Tobago Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "TRINIDAD AND TOBAGO",
+                "isoId": "780"
+            }
+        ]
+    },
+    {
+        "code": "TND",
+        "name": "Tunisian Dinar",
+        "minorUnits": "3",
+        "countries": [
+            {
+                "name": "TUNISIA",
+                "isoId": "788"
+            }
+        ]
+    },
+    {
+        "code": "TRY",
+        "name": "Turkish Lira",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "TURKEY",
+                "isoId": "949"
+            }
+        ]
+    },
+    {
+        "code": "TMT",
+        "name": "Turkmenistan New Manat",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "TURKMENISTAN",
+                "isoId": "934"
+            }
+        ]
+    },
+    {
+        "code": "UGX",
+        "name": "Uganda Shilling",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "UGANDA",
+                "isoId": "800"
+            }
+        ]
+    },
+    {
+        "code": "UAH",
+        "name": "Hryvnia",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "UKRAINE",
+                "isoId": "980"
+            }
+        ]
+    },
+    {
+        "code": "AED",
+        "name": "UAE Dirham",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "UNITED ARAB EMIRATES (THE)",
+                "isoId": "784"
+            }
+        ]
+    },
+    {
+        "code": "UYU",
+        "name": "Peso Uruguayo",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "URUGUAY",
+                "isoId": "858"
+            }
+        ]
+    },
+    {
+        "code": "UZS",
+        "name": "Uzbekistan Sum",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "UZBEKISTAN",
+                "isoId": "860"
+            }
+        ]
+    },
+    {
+        "code": "VUV",
+        "name": "Vatu",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "VANUATU",
+                "isoId": "548"
+            }
+        ]
+    },
+    {
+        "code": "VEF",
+        "name": "Bolívar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+                "isoId": "937"
+            }
+        ]
+    },
+    {
+        "code": "VND",
+        "name": "Dong",
+        "minorUnits": "0",
+        "countries": [
+            {
+                "name": "VIET NAM",
+                "isoId": "704"
+            }
+        ]
+    },
+    {
+        "code": "YER",
+        "name": "Yemeni Rial",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "YEMEN",
+                "isoId": "886"
+            }
+        ]
+    },
+    {
+        "code": "ZMW",
+        "name": "Zambian Kwacha",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ZAMBIA",
+                "isoId": "967"
+            }
+        ]
+    },
+    {
+        "code": "ZWL",
+        "name": "Zimbabwe Dollar",
+        "minorUnits": "2",
+        "countries": [
+            {
+                "name": "ZIMBABWE",
+                "isoId": "932"
+            }
+        ]
+    }
+]

@@ -12,6 +12,7 @@ let root_dir = __dirname + '/../';
 let data_dir = root_dir + 'data/';
 let downloads_dir = data_dir + 'downloads/';
 let intermediate_dir = data_dir + 'intermediate/';
+let generated_dir = data_dir + 'generated/';
 
 function download() {
   return new Promise(function(resolve, reject) {
@@ -32,30 +33,35 @@ function download() {
   });
 }
 
-function saveToDownloadsFactory(name) {
-  console.log('saveToDownloadsFactory');
-  return function(doc) {
-    console.log('saveToDownloads');
-    let path = downloads_dir + name;
-    return new Promise(function(resolve, reject) {
-      fs.writeFile(path, doc, function(err) {
-        if (err) {
-          reject(err);
-        } else {
-          console.log(`Saved ${path}`);
-          resolve(doc);
-        }
-      });
+function writeFile(dir, name, doc, serializer) {
+  let path = dir + name;
+  let text = serializer ? serializer(doc) : doc;
+  return new Promise(function(resolve, reject) {
+    fs.writeFile(path, text, function(err) {
+      if (err) {
+        reject(err);
+      } else {
+        console.log(`Wrote ${path}`);
+        resolve(doc);
+      }
     });
-  }
+  });
 }
 
-function saveToPartialsFactory(name) {
-  return function(doc) {
-    // save to data/partials/name
-    console.log('save to data/partials/name here');
-    return doc;
-  }
+function jsonStringify(obj) {
+  return JSON.stringify(obj, null, 4);
+}
+
+function saveToDownloadsFactory(name) {
+  return (text) => writeFile(downloads_dir, name, text)
+}
+
+function saveToIntermediateFactory(name, serializer) {
+  return (doc) => writeFile(intermediate_dir, name, doc, serializer)
+}
+
+function saveToGeneratedFactory(name, serializer) {
+  return (doc) => writeFile(generated_dir, name, doc, serializer)
 }
 
 function xmlToObj(text) {
@@ -113,6 +119,8 @@ module.exports = function() {
     .then(saveToDownloadsFactory('names-source.xml'))
     .then(xmlToObj)
     .then(convertAndFilter)
-    .then(saveToPartialsFactory('names.json'))
+    .then(saveToIntermediateFactory('names.json', jsonStringify))
+    // For now, this is the final product.
+    .then(saveToGeneratedFactory('currencies.json', jsonStringify))
     .catch((err) => console.log('Error', err));
 }
