@@ -26,6 +26,7 @@ Tables needed
 1:1 currency, currency name, currency code, flag, symbol
 1:* currency, country
 1:* country, aliases
+1:1 country, country code
 1:* language code (locale), country
 
 Potential Json
@@ -84,3 +85,4 @@ https://github.com/lipis/flag-icon-css
 
 Locale to country mapping. Does it actually work?
 https://github.com/maxmind/Locale-Country-Multilingual
+Run with https://www.npmjs.com/package/executive

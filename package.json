@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/cheriot/currency-calculator-server#readme",
   "dependencies": {
+    "install": "^0.6.1",
+    "lodash": "^4.11.0",
+    "superagent": "^1.8.3",
+    "xml2js": "^0.4.16",
     "yargs": "^4.6.0"
   }
 }
