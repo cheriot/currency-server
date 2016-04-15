@@ -91,7 +91,7 @@ function convertAndFilter(doc) {
         name: entry.CtryNm,
         currencyCode: entry.Ccy,
         currencyName: entry.CcyNm,
-        isoId: entry.CcyNbr,
+        iso4217Id: entry.CcyNbr,
         minorUnits: entry.CcyMnrUnts
       };
     });
@@ -106,7 +106,7 @@ function convertAndFilter(doc) {
       code: code,
       name: first.currencyName,
       minorUnits: first.minorUnits,
-      countries: codeCountries.map((country) => _.pick(country, ['name', 'isoId']))
+      countries: codeCountries.map((country) => _.pick(country, ['name', 'iso4217Id']))
     };
   })
 
