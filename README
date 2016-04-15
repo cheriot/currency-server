@@ -52,6 +52,24 @@ Potential Json
     ]
 }
 
+Currency list from https://currencylayer.com/currencies
+Array.prototype.map.call(document.querySelectorAll('td:first-child'), function(e) { return e.innerText;}).slice(0,-1).reduce(function(str, c) { return str + '"USD'+c+'"'+', '}, "");
+Add BTC manually
+Manually handle N/A currencies. Several are British and can be added back with the same values as the pound.
+Competitors list http://www.xe.com/iso4217.php
+Array.prototype.map.call(document.querySelectorAll('#currencyTable a'),
+function(e) { return e.innerText }).join(', ')
+163
+What's the gap?
+YQL for known currencies, USD base is in the app. Watch for N/A values.
+
+Symbols
+http://www.xe.com/symbols.php
+https://github.com/cheeriojs/cheerio
+
+Country flags https://github.com/lipis/flag-icon-css
+Need currency symbols, too.
+
 
 Currency Code, Currency Name, Country Name, Iso's ID
 http://www.currency-iso.org/dam/downloads/lists/list_one.xml

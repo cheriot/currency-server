@@ -49,6 +49,7 @@ function writeFile(dir, name, doc, serializer) {
 }
 
 function jsonStringify(obj) {
+  // Pretty print our data files.
   return JSON.stringify(obj, null, 4);
 }
 
