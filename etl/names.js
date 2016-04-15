@@ -3,67 +3,9 @@
 // http://www.currency-iso.org/dam/downloads/lists/list_one.xml
 'use strict';
 
-let superagent = require('superagent');
 let xml2js = require('xml2js');
-let fs = require('fs');
 let _ = require('lodash');
-
-let root_dir = __dirname + '/../';
-let data_dir = root_dir + 'data/';
-let downloads_dir = data_dir + 'downloads/';
-let intermediate_dir = data_dir + 'intermediate/';
-let generated_dir = data_dir + 'generated/';
-
-function download() {
-  return new Promise(function(resolve, reject) {
-    superagent
-      .get('http://www.currency-iso.org/dam/downloads/lists/list_one.xml')
-      .set('From', 'cheriot@gmail.com')
-      .set('User-Agent', 'Christopher Heriot <cheriot@gmail.com>')
-      .buffer(true)
-      .end(function(err, res) {
-        if(200 == res.status) {
-          resolve(res.text);
-        } else {
-          let msg = `Error: ${err.status} ${err.response}`;
-          console.error(msg);
-          reject(msg);
-        }
-      });
-  });
-}
-
-function writeFile(dir, name, doc, serializer) {
-  let path = dir + name;
-  let text = serializer ? serializer(doc) : doc;
-  return new Promise(function(resolve, reject) {
-    fs.writeFile(path, text, function(err) {
-      if (err) {
-        reject(err);
-      } else {
-        console.log(`Wrote ${path}`);
-        resolve(doc);
-      }
-    });
-  });
-}
-
-function jsonStringify(obj) {
-  // Pretty print our data files.
-  return JSON.stringify(obj, null, 4);
-}
-
-function saveToDownloadsFactory(name) {
-  return (text) => writeFile(downloads_dir, name, text)
-}
-
-function saveToIntermediateFactory(name, serializer) {
-  return (doc) => writeFile(intermediate_dir, name, doc, serializer)
-}
-
-function saveToGeneratedFactory(name, serializer) {
-  return (doc) => writeFile(generated_dir, name, doc, serializer)
-}
+let etlCommon = require('./common');
 
 function xmlToObj(text) {
   return new Promise((resolve, reject) => {
@@ -116,12 +58,12 @@ function convertAndFilter(doc) {
 }
 
 module.exports = function() {
-  download()
-    .then(saveToDownloadsFactory('names-source.xml'))
+  etlCommon.download('http://www.currency-iso.org/dam/downloads/lists/list_one.xml')
+    .then(etlCommon.saveToDownloadsFactory('names-source.xml'))
     .then(xmlToObj)
     .then(convertAndFilter)
-    .then(saveToIntermediateFactory('names.json', jsonStringify))
+    .then(etlCommon.saveToIntermediateFactory('names.json', etlCommon.jsonStringify))
     // For now, this is the final product.
-    .then(saveToGeneratedFactory('currencies.json', jsonStringify))
+    .then(etlCommon.saveToGeneratedFactory('currencies.json', etlCommon.jsonStringify))
     .catch((err) => console.log('Error', err));
 }
