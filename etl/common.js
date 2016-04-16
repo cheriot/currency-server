@@ -104,5 +104,8 @@ module.exports = {
   saveToGeneratedFactory: saveToGeneratedFactory,
   readGenerated: readGenerated,
   readManualEntries: readManualEntries,
-  mergeManualEntriesFactory: mergeManualEntriesFactory
+  mergeManualEntriesFactory: mergeManualEntriesFactory,
+  downloadsDir: downloads_dir,
+  intermediateDir: intermediate_dir,
+  generatedDir: generated_dir
 }
