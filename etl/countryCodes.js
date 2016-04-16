@@ -69,7 +69,7 @@ function matchCountryByName(countryName, countryCodeDoc) {
   }
 }
 
-function convertAndFilter(countryCodeDoc) {
+function applyCountryCodesToCurrencies(countryCodeDoc) {
   return etlCommon.readGenerated('currencies.json')
     .then((currenciesDoc) => {
       // Modify currenciesDoc so that country objects have a code property.
@@ -86,9 +86,53 @@ function convertAndFilter(countryCodeDoc) {
         });
       });
 
-      console.log('Failed to match', fails.length, 'countries.', fails);
+      console.log('Failed to match', fails.length, 'countries to two letter codes.', fails);
 
       return currenciesDoc;
+    });
+}
+
+function assignIssuingCountry(currencies) {
+  // Some currencies are used by many countries, but only one country
+  // (or union) issues the currency. Theirs is the name and flag we
+  // want to associate with it.
+  //
+  // For currency unions other than the EU, use the country where the bank is headquartered.
+  // The XCD union hash a flag, but no country code or svg.
+
+  // Calculate the simple case: the currency has one country.
+  currencies.forEach((currency) => {
+    if(currency.countries.length == 1) {
+      currency.issuingCountryCode = currency.countries[0].code;
+    } else if(currency.countries.length == 0) {
+      console.log('Data Error', currency.code, currency.name, 'has no countries associated.');
+    } else {
+      // The manual file will need to cover these.
+    }
+  });
+
+  // Load the manual cases.
+  return etlCommon.readManualEntries('issuing-country.json')
+    .then((currencyCodeToIssuingCountry) => {
+      for(let currencyCode of Object.keys(currencyCodeToIssuingCountry)) {
+        let currencyAttrs = currencyCodeToIssuingCountry[currencyCode];
+        // Find that currency and merge currencyAttrs.
+        let currency = currencies.find((c) => c.code == currencyCode);
+        Object.assign(currency, currencyAttrs);
+        console.log(`Assign to ${currency.code} ${currency.name}: ${currencyAttrs}`);
+      }
+    })
+    .then(() => {
+      // Verify that every currency has an issuing country assigned.
+      for(let currency of currencies) {
+        if(!currency.issuingCountryCode) {
+          throw `No issuing country assigned to ${currency.code} ${currency.name}.`
+        }
+      }
+    })
+    .then(() => {
+      // Pass on the doc that future steps will rely on.
+      return currencies;
     });
 }
 
@@ -98,8 +142,10 @@ module.exports = function() {
     .then(csvToObj)
     .then(etlCommon.saveToIntermediateFactory('country-codes.json', etlCommon.jsonStringify))
     .then(etlCommon.mergeManualEntriesFactory('country-codes.json'))
-    .then(convertAndFilter)
+    .then(applyCountryCodesToCurrencies)
     .then(etlCommon.saveToIntermediateFactory('currencies-with-country-codes.json'))
+    .then(assignIssuingCountry)
+    .then(etlCommon.saveToIntermediateFactory('currencies-with-issuing-country.json'))
     // For now, this is the final product.
     .then(etlCommon.saveToGeneratedFactory('currencies.json'))
     .catch((err) => console.log('Error', err, err.stack));

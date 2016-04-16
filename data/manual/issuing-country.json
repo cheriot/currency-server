@@ -1,0 +1,18 @@
+{
+  "EUR": { "issuingCountryCode": "EU", "currencyUnion": true },
+  "USD": { "issuingCountryCode": "US" },
+  "XCD": { "issuingCountryCode": "KN", "currencyUnion": true },
+  "AUD": { "issuingCountryCode": "AU" },
+  "XOF": { "issuingCountryCode": "SN", "currencyUnion": true },
+  "INR": { "issuingCountryCode": "IN" },
+  "NOK": { "issuingCountryCode": "NO" },
+  "XAF": { "issuingCountryCode": "CM", "currencyUnion": true },
+  "NZD": { "issuingCountryCode": "NZ" },
+  "ANG": { "issuingCountryCode": "BQ", "currencyUnion": true },
+  "DKK": { "issuingCountryCode": "DK" },
+  "XPF": { "issuingCountryCode": "FR" },
+  "GBP": { "issuingCountryCode": "GB" },
+  "ZAR": { "issuingCountryCode": "ZA" },
+  "CHF": { "issuingCountryCode": "CH" },
+  "MAD": { "issuingCountryCode": "MA" }
+}

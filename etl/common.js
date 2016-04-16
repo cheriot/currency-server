@@ -103,5 +103,6 @@ module.exports = {
   saveToIntermediateFactory: saveToIntermediateFactory,
   saveToGeneratedFactory: saveToGeneratedFactory,
   readGenerated: readGenerated,
+  readManualEntries: readManualEntries,
   mergeManualEntriesFactory: mergeManualEntriesFactory
 }
