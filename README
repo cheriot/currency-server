@@ -79,6 +79,8 @@ Two digit country codes. Can this map from locale to country?
 http://www.iso.org/iso/country_codes
 downloadable: http://data.okfn.org/data/core/country-list
 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+More reputable download?
+http://opengeocode.org/download.php
 
 
 For official locale details, use Unicode Common Locale Data Repository (CLDR).

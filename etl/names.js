@@ -58,12 +58,11 @@ function convertAndFilter(doc) {
 }
 
 module.exports = function() {
-  etlCommon.download('http://www.currency-iso.org/dam/downloads/lists/list_one.xml')
+  return etlCommon.download('http://www.currency-iso.org/dam/downloads/lists/list_one.xml')
     .then(etlCommon.saveToDownloadsFactory('currency-names.xml'))
     .then(xmlToObj)
     .then(convertAndFilter)
-    .then(etlCommon.saveToIntermediateFactory('currency-names.json', etlCommon.jsonStringify))
-    // For now, this is the final product.
-    .then(etlCommon.saveToGeneratedFactory('currencies.json', etlCommon.jsonStringify))
-    .catch((err) => console.log('Error', err));
+    .then(etlCommon.saveToIntermediateFactory('currency-names.json'))
+    .then(etlCommon.saveToGeneratedFactory('currencies.json'))
+    .catch((err) => console.log('Error', err, err.stack));
 }

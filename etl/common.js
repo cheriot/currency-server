@@ -2,13 +2,18 @@
 'use strict';
 
 let superagent = require('superagent');
+let _ = require('lodash');
 let fs = require('fs');
 
+// TODO camelCase
 let root_dir = __dirname + '/../';
 let data_dir = root_dir + 'data/';
 let downloads_dir = data_dir + 'downloads/';
 let intermediate_dir = data_dir + 'intermediate/';
+let manual_dir = data_dir + 'manual/';
 let generated_dir = data_dir + 'generated/';
+
+let fsOpts = {encoding: 'utf-8'};
 
 function download(url) {
   return new Promise(function(resolve, reject) {
@@ -33,7 +38,7 @@ function writeFile(dir, name, doc, serializer) {
   let path = dir + name;
   let text = serializer ? serializer(doc) : doc;
   return new Promise(function(resolve, reject) {
-    fs.writeFile(path, text, function(err) {
+    fs.writeFile(path, text, fsOpts, function(err) {
       if (err) {
         reject(err);
       } else {
@@ -54,11 +59,41 @@ function saveToDownloadsFactory(name) {
 }
 
 function saveToIntermediateFactory(name, serializer) {
-  return (doc) => writeFile(intermediate_dir, name, doc, serializer)
+  return (doc) => writeFile(intermediate_dir, name, doc, serializer || jsonStringify)
 }
 
 function saveToGeneratedFactory(name, serializer) {
-  return (doc) => writeFile(generated_dir, name, doc, serializer)
+  return (doc) => writeFile(generated_dir, name, doc, serializer || jsonStringify)
+}
+
+function readFile(dir, name) {
+  let path = dir + name;
+  return new Promise((resolve, reject) => {
+    fs.readFile(path, fsOpts, (err, text) => {
+      if (err) {
+        reject(err);
+      } else {
+        console.log(`Read ${path}`);
+        resolve(JSON.parse(text));
+      }
+    });
+  });
+}
+
+function mergeManualEntriesFactory(name) {
+  return (doc) => {
+    return readManualEntries(name).then((manualDoc) => {
+      return _.defaultsDeep(doc, manualDoc);
+    });
+  }
+}
+
+function readManualEntries(name) {
+  return readFile(manual_dir, name);
+}
+
+function readGenerated(name) {
+  return readFile(generated_dir, name)
 }
 
 module.exports = {
@@ -66,5 +101,7 @@ module.exports = {
   jsonStringify: jsonStringify,
   saveToDownloadsFactory: saveToDownloadsFactory,
   saveToIntermediateFactory: saveToIntermediateFactory,
-  saveToGeneratedFactory: saveToGeneratedFactory
+  saveToGeneratedFactory: saveToGeneratedFactory,
+  readGenerated: readGenerated,
+  mergeManualEntriesFactory: mergeManualEntriesFactory
 }
