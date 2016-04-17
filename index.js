@@ -3,6 +3,7 @@
 
 let thisPackage = require('./package.json');
 let etl = require('./etl');
+let copy = require('./copy');
 
 function etlOpts(yargs) {
   return yargs
@@ -22,12 +23,29 @@ function etlCommand(argv) {
   etl.execute(argv.stage);
 }
 
-function serveOpts() {
+function serveOpts(yargs) {
   return yargs;
 }
 
 function serveCommand(argv) {
   console.log('serve has not been implemented yet.', argv);
+}
+
+function copyOpts(yargs) {
+  return yargs
+    .option('android-project', {
+      alias: 'p',
+      describe: 'The root directory of an Android project.',
+      requiresArg: true,
+      demand: true
+    })
+    .fail(failHandler);
+}
+
+function copyCommand(argv) {
+  const dest = argv['android-project'];
+  console.log('Copy to android project at', dest);
+  copy.execute(dest);
 }
 
 function failHandler(msg, err) {
@@ -45,6 +63,7 @@ require('yargs')
   .strict()
   .command('etl', 'Extract, transform, and load datasets depended on by the currency calculator.', etlOpts, etlCommand)
   .command('serve', 'Serve API requests.', serveOpts, serveCommand)
+  .command('copy', 'Copy generated files to the Android project.', copyOpts, copyCommand)
   .demand(1, 'No command specified.')
   .fail(failHandler)
   .argv
