@@ -72,7 +72,13 @@ module.exports = function() {
       for(const file of files) {
         for(const s of sizes) {
           const src = flagSourceBasePath + file;
-          const dest = flagDestBaseDir + s.dir + file.replace(/svg/, 'png');
+          // Android resource directories cannot
+          // 1. Have subdirectories.
+          // 2. Contain files that have the same name as java keywords.
+          // 3. Contain - or any other non alphanumeric_ character.
+          // ie the flag_ prefix is important.
+          const filename = 'flag_' + file.replace('-', '_').replace(/svg/, 'png');
+          const dest = flagDestBaseDir + s.dir + filename;
           // Do these flags need more processing to look good in the app?
           // http://www.fmwconcepts.com/imagemagick/
           // http://www.imagemagick.org/Usage/thumbnails/#button
