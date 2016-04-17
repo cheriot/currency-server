@@ -54,11 +54,11 @@ module.exports = function() {
   // 4. Convert to the right sizes, add any effects, and drop in the generated dir.
   const flagDestBaseDir = etlCommon.generatedDir
   const sizes = [
-    {dir: 'mipmap-mdpi/',    dim: 48},
-    {dir: 'mipmap-hdpi/',    dim: 72},
-    {dir: 'mipmap-xhdpi/',   dim: 96},
-    {dir: 'mipmap-xxhdpi/',  dim: 144},
-    {dir: 'mipmap-xxxhdpi/', dim: 192},
+    {dir: 'drawable-mdpi/',    dim: 48},
+    {dir: 'drawable-hdpi/',    dim: 72},
+    {dir: 'drawable-xhdpi/',   dim: 96},
+    {dir: 'drawable-xxhdpi/',  dim: 144},
+    {dir: 'drawable-xxxhdpi/', dim: 192},
   ];
 
   return executive(`curl -L ${downloadUri} > ${zipPath}`)

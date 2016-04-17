@@ -2,19 +2,19 @@
 
 const executive = require('executive');
 
-const mipmapTypes = [
-  'mipmap-mdpi',
-  'mipmap-hdpi',
-  'mipmap-xhdpi',
-  'mipmap-xxhdpi',
-  'mipmap-xxxhdpi'
+const drawableTypes = [
+  'drawable-mdpi',
+  'drawable-hdpi',
+  'drawable-xhdpi',
+  'drawable-xxhdpi',
+  'drawable-xxxhdpi'
 ];
 
 function execute(dest) {
   const resDir = dest + 'app/src/main/res/';
   const srcDir = __dirname + '/data/generated/';
-  for(const mipmapType of mipmapTypes) {
-    executive(`cp ${srcDir}${mipmapType}/* ${resDir}${mipmapType}/`);
+  for(const drawableType of drawableTypes) {
+    executive(`cp ${srcDir}${drawableType}/* ${resDir}${drawableType}/`);
   }
   executive(`cp ${srcDir}currencies.json ${resDir}raw/currencies_meta.json`);
 }
