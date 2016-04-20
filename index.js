@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 'use strict';
 
+process.on('unhandledRejection', function(error, promise) {
+    console.error("UNHANDLED REJECTION", error.stack);
+});
+
 let thisPackage = require('./package.json');
 let etl = require('./etl');
 let copy = require('./copy');
