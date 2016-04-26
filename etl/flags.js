@@ -33,7 +33,7 @@ function filterFlags(files) {
         let foundFile = null;
 
         for(const file of files) {
-          if(file.endsWith(expectedFile)) {
+          if(file === expectedFile) {
             foundFile = file;
             break;
           }
