@@ -70,7 +70,7 @@ function processFlagsFromSource(flagSourceBasePath, sizes, groupTag, flagDestBas
           // Do these flags need more processing to look good in the app?
           // http://www.fmwconcepts.com/imagemagick/
           // http://www.imagemagick.org/Usage/thumbnails/#button
-          const c = `convert ${src} -resize ${s.dim}x${s.dim}! ${dest}`;
+          const c = `convert ${src} -resize ${s.w}x${s.h} ${dest}`;
           commands.push(c);
         }
       }
@@ -93,12 +93,19 @@ module.exports = function() {
   // 3. Verify that all currencies have a flag.
   // 4. Convert to the right sizes, add any effects, and drop in the generated dir.
   const flagDestBaseDir = etlCommon.generatedDir
-  const sizes = [
-    {dir: 'drawable-mdpi/',    dim: 48},
-    {dir: 'drawable-hdpi/',    dim: 72},
-    {dir: 'drawable-xhdpi/',   dim: 96},
-    {dir: 'drawable-xxhdpi/',  dim: 144},
-    {dir: 'drawable-xxxhdpi/', dim: 192},
+  const sizesSquare = [
+    {dir: 'drawable-mdpi/',    w: 48,  h: 48},
+    {dir: 'drawable-hdpi/',    w: 72,  h: 72},
+    {dir: 'drawable-xhdpi/',   w: 96,  h: 96},
+    {dir: 'drawable-xxhdpi/',  w: 144, h: 144},
+    {dir: 'drawable-xxxhdpi/', w: 192, h: 192},
+  ];
+  const sizesFull = [
+    {dir: 'drawable-mdpi/',    w: 48,  h: 36},
+    {dir: 'drawable-hdpi/',    w: 72,  h: 54},
+    {dir: 'drawable-xhdpi/',   w: 96,  h: 72},
+    {dir: 'drawable-xxhdpi/',  w: 144, h: 108},
+    {dir: 'drawable-xxxhdpi/', w: 192, h: 144},
   ];
 
   // return executive(`curl -L ${downloadUri} > ${zipPath}`)
@@ -106,7 +113,7 @@ module.exports = function() {
     //  return executive(`unzip -q -o ${zipPath} -d ${etlCommon.intermediateDir}`);
     // })
    return executive(`unzip -q -o ${zipPath} -d ${etlCommon.intermediateDir}`)
-    .then(() => processFlagsFromSource(squareFlagBasePath, sizes, '1x1', flagDestBaseDir))
-    .then(() => processFlagsFromSource(rectangleFlagBasePath, sizes, '4x3', flagDestBaseDir))
+    .then(() => processFlagsFromSource(squareFlagBasePath, sizesSquare, '1x1', flagDestBaseDir))
+    .then(() => processFlagsFromSource(rectangleFlagBasePath, sizesFull, '4x3', flagDestBaseDir))
     .catch((err) => console.log('Error', err, err.stack));
 }
