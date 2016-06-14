@@ -9,7 +9,8 @@
                 "iso4217Id": "971",
                 "code": "AF"
             }
-        ]
+        ],
+        "issuingCountryCode": "AF"
     },
     {
         "code": "EUR",
@@ -191,7 +192,9 @@
                 "iso4217Id": "978",
                 "code": "ES"
             }
-        ]
+        ],
+        "issuingCountryCode": "EU",
+        "currencyUnion": true
     },
     {
         "code": "ALL",
@@ -203,7 +206,8 @@
                 "iso4217Id": "008",
                 "code": "AL"
             }
-        ]
+        ],
+        "issuingCountryCode": "AL"
     },
     {
         "code": "DZD",
@@ -215,7 +219,8 @@
                 "iso4217Id": "012",
                 "code": "DZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "DZ"
     },
     {
         "code": "USD",
@@ -317,7 +322,8 @@
                 "iso4217Id": "840",
                 "code": "VI"
             }
-        ]
+        ],
+        "issuingCountryCode": "US"
     },
     {
         "code": "AOA",
@@ -329,7 +335,8 @@
                 "iso4217Id": "973",
                 "code": "AO"
             }
-        ]
+        ],
+        "issuingCountryCode": "AO"
     },
     {
         "code": "XCD",
@@ -376,7 +383,9 @@
                 "iso4217Id": "951",
                 "code": "VC"
             }
-        ]
+        ],
+        "issuingCountryCode": "KN",
+        "currencyUnion": true
     },
     {
         "code": "ARS",
@@ -388,7 +397,8 @@
                 "iso4217Id": "032",
                 "code": "AR"
             }
-        ]
+        ],
+        "issuingCountryCode": "AR"
     },
     {
         "code": "AMD",
@@ -400,7 +410,8 @@
                 "iso4217Id": "051",
                 "code": "AM"
             }
-        ]
+        ],
+        "issuingCountryCode": "AM"
     },
     {
         "code": "AWG",
@@ -412,7 +423,8 @@
                 "iso4217Id": "533",
                 "code": "AW"
             }
-        ]
+        ],
+        "issuingCountryCode": "AW"
     },
     {
         "code": "AUD",
@@ -459,7 +471,8 @@
                 "iso4217Id": "036",
                 "code": "TV"
             }
-        ]
+        ],
+        "issuingCountryCode": "AU"
     },
     {
         "code": "AZN",
@@ -471,7 +484,8 @@
                 "iso4217Id": "944",
                 "code": "AZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "AZ"
     },
     {
         "code": "BSD",
@@ -483,7 +497,8 @@
                 "iso4217Id": "044",
                 "code": "BS"
             }
-        ]
+        ],
+        "issuingCountryCode": "BS"
     },
     {
         "code": "BHD",
@@ -495,7 +510,8 @@
                 "iso4217Id": "048",
                 "code": "BH"
             }
-        ]
+        ],
+        "issuingCountryCode": "BH"
     },
     {
         "code": "BDT",
@@ -507,7 +523,8 @@
                 "iso4217Id": "050",
                 "code": "BD"
             }
-        ]
+        ],
+        "issuingCountryCode": "BD"
     },
     {
         "code": "BBD",
@@ -519,7 +536,8 @@
                 "iso4217Id": "052",
                 "code": "BB"
             }
-        ]
+        ],
+        "issuingCountryCode": "BB"
     },
     {
         "code": "BYR",
@@ -531,7 +549,8 @@
                 "iso4217Id": "974",
                 "code": "BY"
             }
-        ]
+        ],
+        "issuingCountryCode": "BY"
     },
     {
         "code": "BZD",
@@ -543,7 +562,8 @@
                 "iso4217Id": "084",
                 "code": "BZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "BZ"
     },
     {
         "code": "XOF",
@@ -590,7 +610,9 @@
                 "iso4217Id": "952",
                 "code": "TG"
             }
-        ]
+        ],
+        "issuingCountryCode": "SN",
+        "currencyUnion": true
     },
     {
         "code": "BMD",
@@ -602,7 +624,8 @@
                 "iso4217Id": "060",
                 "code": "BM"
             }
-        ]
+        ],
+        "issuingCountryCode": "BM"
     },
     {
         "code": "INR",
@@ -619,7 +642,8 @@
                 "iso4217Id": "356",
                 "code": "IN"
             }
-        ]
+        ],
+        "issuingCountryCode": "IN"
     },
     {
         "code": "BTN",
@@ -631,7 +655,8 @@
                 "iso4217Id": "064",
                 "code": "BT"
             }
-        ]
+        ],
+        "issuingCountryCode": "BT"
     },
     {
         "code": "BOB",
@@ -643,7 +668,8 @@
                 "iso4217Id": "068",
                 "code": "BO"
             }
-        ]
+        ],
+        "issuingCountryCode": "BO"
     },
     {
         "code": "BAM",
@@ -655,7 +681,8 @@
                 "iso4217Id": "977",
                 "code": "BA"
             }
-        ]
+        ],
+        "issuingCountryCode": "BA"
     },
     {
         "code": "BWP",
@@ -667,7 +694,8 @@
                 "iso4217Id": "072",
                 "code": "BW"
             }
-        ]
+        ],
+        "issuingCountryCode": "BW"
     },
     {
         "code": "NOK",
@@ -689,7 +717,8 @@
                 "iso4217Id": "578",
                 "code": "SJ"
             }
-        ]
+        ],
+        "issuingCountryCode": "NO"
     },
     {
         "code": "BRL",
@@ -701,7 +730,8 @@
                 "iso4217Id": "986",
                 "code": "BR"
             }
-        ]
+        ],
+        "issuingCountryCode": "BR"
     },
     {
         "code": "BND",
@@ -713,7 +743,8 @@
                 "iso4217Id": "096",
                 "code": "BN"
             }
-        ]
+        ],
+        "issuingCountryCode": "BN"
     },
     {
         "code": "BGN",
@@ -725,7 +756,8 @@
                 "iso4217Id": "975",
                 "code": "BG"
             }
-        ]
+        ],
+        "issuingCountryCode": "BG"
     },
     {
         "code": "BIF",
@@ -737,7 +769,8 @@
                 "iso4217Id": "108",
                 "code": "BI"
             }
-        ]
+        ],
+        "issuingCountryCode": "BI"
     },
     {
         "code": "CVE",
@@ -749,7 +782,8 @@
                 "iso4217Id": "132",
                 "code": "CV"
             }
-        ]
+        ],
+        "issuingCountryCode": "CV"
     },
     {
         "code": "KHR",
@@ -761,7 +795,8 @@
                 "iso4217Id": "116",
                 "code": "KH"
             }
-        ]
+        ],
+        "issuingCountryCode": "KH"
     },
     {
         "code": "XAF",
@@ -798,7 +833,9 @@
                 "iso4217Id": "950",
                 "code": "GA"
             }
-        ]
+        ],
+        "issuingCountryCode": "CM",
+        "currencyUnion": true
     },
     {
         "code": "CAD",
@@ -810,7 +847,8 @@
                 "iso4217Id": "124",
                 "code": "CA"
             }
-        ]
+        ],
+        "issuingCountryCode": "CA"
     },
     {
         "code": "KYD",
@@ -822,7 +860,8 @@
                 "iso4217Id": "136",
                 "code": "KY"
             }
-        ]
+        ],
+        "issuingCountryCode": "KY"
     },
     {
         "code": "CLP",
@@ -834,7 +873,8 @@
                 "iso4217Id": "152",
                 "code": "CL"
             }
-        ]
+        ],
+        "issuingCountryCode": "CL"
     },
     {
         "code": "CNY",
@@ -846,7 +886,8 @@
                 "iso4217Id": "156",
                 "code": "CN"
             }
-        ]
+        ],
+        "issuingCountryCode": "CN"
     },
     {
         "code": "COP",
@@ -858,7 +899,8 @@
                 "iso4217Id": "170",
                 "code": "CO"
             }
-        ]
+        ],
+        "issuingCountryCode": "CO"
     },
     {
         "code": "KMF",
@@ -870,7 +912,8 @@
                 "iso4217Id": "174",
                 "code": "KM"
             }
-        ]
+        ],
+        "issuingCountryCode": "KM"
     },
     {
         "code": "CDF",
@@ -882,7 +925,8 @@
                 "iso4217Id": "976",
                 "code": "CD"
             }
-        ]
+        ],
+        "issuingCountryCode": "CD"
     },
     {
         "code": "NZD",
@@ -914,7 +958,8 @@
                 "iso4217Id": "554",
                 "code": "TK"
             }
-        ]
+        ],
+        "issuingCountryCode": "NZ"
     },
     {
         "code": "CRC",
@@ -926,7 +971,8 @@
                 "iso4217Id": "188",
                 "code": "CR"
             }
-        ]
+        ],
+        "issuingCountryCode": "CR"
     },
     {
         "code": "HRK",
@@ -938,7 +984,8 @@
                 "iso4217Id": "191",
                 "code": "HR"
             }
-        ]
+        ],
+        "issuingCountryCode": "HR"
     },
     {
         "code": "CUP",
@@ -950,7 +997,8 @@
                 "iso4217Id": "192",
                 "code": "CU"
             }
-        ]
+        ],
+        "issuingCountryCode": "CU"
     },
     {
         "code": "CUC",
@@ -962,7 +1010,8 @@
                 "iso4217Id": "931",
                 "code": "CU"
             }
-        ]
+        ],
+        "issuingCountryCode": "CU"
     },
     {
         "code": "ANG",
@@ -979,7 +1028,9 @@
                 "iso4217Id": "532",
                 "code": "SX"
             }
-        ]
+        ],
+        "issuingCountryCode": "BQ",
+        "currencyUnion": true
     },
     {
         "code": "CZK",
@@ -991,7 +1042,8 @@
                 "iso4217Id": "203",
                 "code": "CZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "CZ"
     },
     {
         "code": "DKK",
@@ -1013,7 +1065,8 @@
                 "iso4217Id": "208",
                 "code": "GL"
             }
-        ]
+        ],
+        "issuingCountryCode": "DK"
     },
     {
         "code": "DJF",
@@ -1025,7 +1078,8 @@
                 "iso4217Id": "262",
                 "code": "DJ"
             }
-        ]
+        ],
+        "issuingCountryCode": "DJ"
     },
     {
         "code": "DOP",
@@ -1037,7 +1091,8 @@
                 "iso4217Id": "214",
                 "code": "DO"
             }
-        ]
+        ],
+        "issuingCountryCode": "DO"
     },
     {
         "code": "EGP",
@@ -1049,7 +1104,8 @@
                 "iso4217Id": "818",
                 "code": "EG"
             }
-        ]
+        ],
+        "issuingCountryCode": "EG"
     },
     {
         "code": "SVC",
@@ -1061,7 +1117,8 @@
                 "iso4217Id": "222",
                 "code": "SV"
             }
-        ]
+        ],
+        "issuingCountryCode": "SV"
     },
     {
         "code": "ERN",
@@ -1073,7 +1130,8 @@
                 "iso4217Id": "232",
                 "code": "ER"
             }
-        ]
+        ],
+        "issuingCountryCode": "ER"
     },
     {
         "code": "ETB",
@@ -1085,7 +1143,8 @@
                 "iso4217Id": "230",
                 "code": "ET"
             }
-        ]
+        ],
+        "issuingCountryCode": "ET"
     },
     {
         "code": "FKP",
@@ -1097,7 +1156,8 @@
                 "iso4217Id": "238",
                 "code": "FK"
             }
-        ]
+        ],
+        "issuingCountryCode": "FK"
     },
     {
         "code": "FJD",
@@ -1109,7 +1169,8 @@
                 "iso4217Id": "242",
                 "code": "FJ"
             }
-        ]
+        ],
+        "issuingCountryCode": "FJ"
     },
     {
         "code": "XPF",
@@ -1131,7 +1192,8 @@
                 "iso4217Id": "953",
                 "code": "WF"
             }
-        ]
+        ],
+        "issuingCountryCode": "FR"
     },
     {
         "code": "GMD",
@@ -1143,7 +1205,8 @@
                 "iso4217Id": "270",
                 "code": "GM"
             }
-        ]
+        ],
+        "issuingCountryCode": "GM"
     },
     {
         "code": "GEL",
@@ -1155,7 +1218,8 @@
                 "iso4217Id": "981",
                 "code": "GE"
             }
-        ]
+        ],
+        "issuingCountryCode": "GE"
     },
     {
         "code": "GHS",
@@ -1167,7 +1231,8 @@
                 "iso4217Id": "936",
                 "code": "GH"
             }
-        ]
+        ],
+        "issuingCountryCode": "GH"
     },
     {
         "code": "GIP",
@@ -1179,7 +1244,8 @@
                 "iso4217Id": "292",
                 "code": "GI"
             }
-        ]
+        ],
+        "issuingCountryCode": "GI"
     },
     {
         "code": "GTQ",
@@ -1191,7 +1257,8 @@
                 "iso4217Id": "320",
                 "code": "GT"
             }
-        ]
+        ],
+        "issuingCountryCode": "GT"
     },
     {
         "code": "GBP",
@@ -1218,7 +1285,8 @@
                 "iso4217Id": "826",
                 "code": "GB"
             }
-        ]
+        ],
+        "issuingCountryCode": "GB"
     },
     {
         "code": "GNF",
@@ -1230,7 +1298,8 @@
                 "iso4217Id": "324",
                 "code": "GN"
             }
-        ]
+        ],
+        "issuingCountryCode": "GN"
     },
     {
         "code": "GYD",
@@ -1242,7 +1311,8 @@
                 "iso4217Id": "328",
                 "code": "GY"
             }
-        ]
+        ],
+        "issuingCountryCode": "GY"
     },
     {
         "code": "HTG",
@@ -1254,7 +1324,8 @@
                 "iso4217Id": "332",
                 "code": "HT"
             }
-        ]
+        ],
+        "issuingCountryCode": "HT"
     },
     {
         "code": "HNL",
@@ -1266,7 +1337,8 @@
                 "iso4217Id": "340",
                 "code": "HN"
             }
-        ]
+        ],
+        "issuingCountryCode": "HN"
     },
     {
         "code": "HKD",
@@ -1278,7 +1350,8 @@
                 "iso4217Id": "344",
                 "code": "HK"
             }
-        ]
+        ],
+        "issuingCountryCode": "HK"
     },
     {
         "code": "HUF",
@@ -1290,7 +1363,8 @@
                 "iso4217Id": "348",
                 "code": "HU"
             }
-        ]
+        ],
+        "issuingCountryCode": "HU"
     },
     {
         "code": "ISK",
@@ -1302,7 +1376,8 @@
                 "iso4217Id": "352",
                 "code": "IS"
             }
-        ]
+        ],
+        "issuingCountryCode": "IS"
     },
     {
         "code": "IDR",
@@ -1314,7 +1389,8 @@
                 "iso4217Id": "360",
                 "code": "ID"
             }
-        ]
+        ],
+        "issuingCountryCode": "ID"
     },
     {
         "code": "IRR",
@@ -1326,7 +1402,8 @@
                 "iso4217Id": "364",
                 "code": "IR"
             }
-        ]
+        ],
+        "issuingCountryCode": "IR"
     },
     {
         "code": "IQD",
@@ -1338,7 +1415,8 @@
                 "iso4217Id": "368",
                 "code": "IQ"
             }
-        ]
+        ],
+        "issuingCountryCode": "IQ"
     },
     {
         "code": "ILS",
@@ -1350,7 +1428,8 @@
                 "iso4217Id": "376",
                 "code": "IL"
             }
-        ]
+        ],
+        "issuingCountryCode": "IL"
     },
     {
         "code": "JMD",
@@ -1362,7 +1441,8 @@
                 "iso4217Id": "388",
                 "code": "JM"
             }
-        ]
+        ],
+        "issuingCountryCode": "JM"
     },
     {
         "code": "JPY",
@@ -1374,7 +1454,8 @@
                 "iso4217Id": "392",
                 "code": "JP"
             }
-        ]
+        ],
+        "issuingCountryCode": "JP"
     },
     {
         "code": "JOD",
@@ -1386,7 +1467,8 @@
                 "iso4217Id": "400",
                 "code": "JO"
             }
-        ]
+        ],
+        "issuingCountryCode": "JO"
     },
     {
         "code": "KZT",
@@ -1398,7 +1480,8 @@
                 "iso4217Id": "398",
                 "code": "KZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "KZ"
     },
     {
         "code": "KES",
@@ -1410,7 +1493,8 @@
                 "iso4217Id": "404",
                 "code": "KE"
             }
-        ]
+        ],
+        "issuingCountryCode": "KE"
     },
     {
         "code": "KPW",
@@ -1422,7 +1506,8 @@
                 "iso4217Id": "408",
                 "code": "KP"
             }
-        ]
+        ],
+        "issuingCountryCode": "KP"
     },
     {
         "code": "KRW",
@@ -1434,7 +1519,8 @@
                 "iso4217Id": "410",
                 "code": "KR"
             }
-        ]
+        ],
+        "issuingCountryCode": "KR"
     },
     {
         "code": "KWD",
@@ -1446,7 +1532,8 @@
                 "iso4217Id": "414",
                 "code": "KW"
             }
-        ]
+        ],
+        "issuingCountryCode": "KW"
     },
     {
         "code": "KGS",
@@ -1458,7 +1545,8 @@
                 "iso4217Id": "417",
                 "code": "KG"
             }
-        ]
+        ],
+        "issuingCountryCode": "KG"
     },
     {
         "code": "LAK",
@@ -1470,7 +1558,8 @@
                 "iso4217Id": "418",
                 "code": "LA"
             }
-        ]
+        ],
+        "issuingCountryCode": "LA"
     },
     {
         "code": "LBP",
@@ -1482,7 +1571,8 @@
                 "iso4217Id": "422",
                 "code": "LB"
             }
-        ]
+        ],
+        "issuingCountryCode": "LB"
     },
     {
         "code": "LSL",
@@ -1494,7 +1584,8 @@
                 "iso4217Id": "426",
                 "code": "LS"
             }
-        ]
+        ],
+        "issuingCountryCode": "LS"
     },
     {
         "code": "ZAR",
@@ -1516,7 +1607,8 @@
                 "iso4217Id": "710",
                 "code": "ZA"
             }
-        ]
+        ],
+        "issuingCountryCode": "ZA"
     },
     {
         "code": "LRD",
@@ -1528,7 +1620,8 @@
                 "iso4217Id": "430",
                 "code": "LR"
             }
-        ]
+        ],
+        "issuingCountryCode": "LR"
     },
     {
         "code": "LYD",
@@ -1540,7 +1633,8 @@
                 "iso4217Id": "434",
                 "code": "LY"
             }
-        ]
+        ],
+        "issuingCountryCode": "LY"
     },
     {
         "code": "CHF",
@@ -1557,7 +1651,8 @@
                 "iso4217Id": "756",
                 "code": "CH"
             }
-        ]
+        ],
+        "issuingCountryCode": "CH"
     },
     {
         "code": "MOP",
@@ -1569,7 +1664,8 @@
                 "iso4217Id": "446",
                 "code": "MO"
             }
-        ]
+        ],
+        "issuingCountryCode": "MO"
     },
     {
         "code": "MKD",
@@ -1581,7 +1677,8 @@
                 "iso4217Id": "807",
                 "code": "MK"
             }
-        ]
+        ],
+        "issuingCountryCode": "MK"
     },
     {
         "code": "MGA",
@@ -1593,7 +1690,8 @@
                 "iso4217Id": "969",
                 "code": "MG"
             }
-        ]
+        ],
+        "issuingCountryCode": "MG"
     },
     {
         "code": "MWK",
@@ -1605,7 +1703,8 @@
                 "iso4217Id": "454",
                 "code": "MW"
             }
-        ]
+        ],
+        "issuingCountryCode": "MW"
     },
     {
         "code": "MYR",
@@ -1617,7 +1716,8 @@
                 "iso4217Id": "458",
                 "code": "MY"
             }
-        ]
+        ],
+        "issuingCountryCode": "MY"
     },
     {
         "code": "MVR",
@@ -1629,7 +1729,8 @@
                 "iso4217Id": "462",
                 "code": "MV"
             }
-        ]
+        ],
+        "issuingCountryCode": "MV"
     },
     {
         "code": "MRO",
@@ -1641,7 +1742,8 @@
                 "iso4217Id": "478",
                 "code": "MR"
             }
-        ]
+        ],
+        "issuingCountryCode": "MR"
     },
     {
         "code": "MUR",
@@ -1653,7 +1755,8 @@
                 "iso4217Id": "480",
                 "code": "MU"
             }
-        ]
+        ],
+        "issuingCountryCode": "MU"
     },
     {
         "code": "MXN",
@@ -1665,7 +1768,8 @@
                 "iso4217Id": "484",
                 "code": "MX"
             }
-        ]
+        ],
+        "issuingCountryCode": "MX"
     },
     {
         "code": "MDL",
@@ -1677,7 +1781,8 @@
                 "iso4217Id": "498",
                 "code": "MD"
             }
-        ]
+        ],
+        "issuingCountryCode": "MD"
     },
     {
         "code": "MNT",
@@ -1689,7 +1794,8 @@
                 "iso4217Id": "496",
                 "code": "MN"
             }
-        ]
+        ],
+        "issuingCountryCode": "MN"
     },
     {
         "code": "MAD",
@@ -1706,7 +1812,8 @@
                 "iso4217Id": "504",
                 "code": "EH"
             }
-        ]
+        ],
+        "issuingCountryCode": "MA"
     },
     {
         "code": "MZN",
@@ -1718,7 +1825,8 @@
                 "iso4217Id": "943",
                 "code": "MZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "MZ"
     },
     {
         "code": "MMK",
@@ -1730,7 +1838,8 @@
                 "iso4217Id": "104",
                 "code": "MM"
             }
-        ]
+        ],
+        "issuingCountryCode": "MM"
     },
     {
         "code": "NAD",
@@ -1742,7 +1851,8 @@
                 "iso4217Id": "516",
                 "code": "NA"
             }
-        ]
+        ],
+        "issuingCountryCode": "NA"
     },
     {
         "code": "NPR",
@@ -1754,7 +1864,8 @@
                 "iso4217Id": "524",
                 "code": "NP"
             }
-        ]
+        ],
+        "issuingCountryCode": "NP"
     },
     {
         "code": "NIO",
@@ -1766,7 +1877,8 @@
                 "iso4217Id": "558",
                 "code": "NI"
             }
-        ]
+        ],
+        "issuingCountryCode": "NI"
     },
     {
         "code": "NGN",
@@ -1778,7 +1890,8 @@
                 "iso4217Id": "566",
                 "code": "NG"
             }
-        ]
+        ],
+        "issuingCountryCode": "NG"
     },
     {
         "code": "OMR",
@@ -1790,7 +1903,8 @@
                 "iso4217Id": "512",
                 "code": "OM"
             }
-        ]
+        ],
+        "issuingCountryCode": "OM"
     },
     {
         "code": "PKR",
@@ -1802,7 +1916,8 @@
                 "iso4217Id": "586",
                 "code": "PK"
             }
-        ]
+        ],
+        "issuingCountryCode": "PK"
     },
     {
         "code": "PAB",
@@ -1814,7 +1929,8 @@
                 "iso4217Id": "590",
                 "code": "PA"
             }
-        ]
+        ],
+        "issuingCountryCode": "PA"
     },
     {
         "code": "PGK",
@@ -1826,7 +1942,8 @@
                 "iso4217Id": "598",
                 "code": "PG"
             }
-        ]
+        ],
+        "issuingCountryCode": "PG"
     },
     {
         "code": "PYG",
@@ -1838,7 +1955,8 @@
                 "iso4217Id": "600",
                 "code": "PY"
             }
-        ]
+        ],
+        "issuingCountryCode": "PY"
     },
     {
         "code": "PEN",
@@ -1850,7 +1968,8 @@
                 "iso4217Id": "604",
                 "code": "PE"
             }
-        ]
+        ],
+        "issuingCountryCode": "PE"
     },
     {
         "code": "PHP",
@@ -1862,7 +1981,8 @@
                 "iso4217Id": "608",
                 "code": "PH"
             }
-        ]
+        ],
+        "issuingCountryCode": "PH"
     },
     {
         "code": "PLN",
@@ -1874,7 +1994,8 @@
                 "iso4217Id": "985",
                 "code": "PL"
             }
-        ]
+        ],
+        "issuingCountryCode": "PL"
     },
     {
         "code": "QAR",
@@ -1886,7 +2007,8 @@
                 "iso4217Id": "634",
                 "code": "QA"
             }
-        ]
+        ],
+        "issuingCountryCode": "QA"
     },
     {
         "code": "RON",
@@ -1898,7 +2020,8 @@
                 "iso4217Id": "946",
                 "code": "RO"
             }
-        ]
+        ],
+        "issuingCountryCode": "RO"
     },
     {
         "code": "RUB",
@@ -1910,7 +2033,8 @@
                 "iso4217Id": "643",
                 "code": "RU"
             }
-        ]
+        ],
+        "issuingCountryCode": "RU"
     },
     {
         "code": "RWF",
@@ -1922,7 +2046,8 @@
                 "iso4217Id": "646",
                 "code": "RW"
             }
-        ]
+        ],
+        "issuingCountryCode": "RW"
     },
     {
         "code": "SHP",
@@ -1934,7 +2059,8 @@
                 "iso4217Id": "654",
                 "code": "SH"
             }
-        ]
+        ],
+        "issuingCountryCode": "SH"
     },
     {
         "code": "WST",
@@ -1946,7 +2072,8 @@
                 "iso4217Id": "882",
                 "code": "WS"
             }
-        ]
+        ],
+        "issuingCountryCode": "WS"
     },
     {
         "code": "STD",
@@ -1958,7 +2085,8 @@
                 "iso4217Id": "678",
                 "code": "ST"
             }
-        ]
+        ],
+        "issuingCountryCode": "ST"
     },
     {
         "code": "SAR",
@@ -1970,7 +2098,8 @@
                 "iso4217Id": "682",
                 "code": "SA"
             }
-        ]
+        ],
+        "issuingCountryCode": "SA"
     },
     {
         "code": "RSD",
@@ -1982,7 +2111,8 @@
                 "iso4217Id": "941",
                 "code": "RS"
             }
-        ]
+        ],
+        "issuingCountryCode": "RS"
     },
     {
         "code": "SCR",
@@ -1994,7 +2124,8 @@
                 "iso4217Id": "690",
                 "code": "SC"
             }
-        ]
+        ],
+        "issuingCountryCode": "SC"
     },
     {
         "code": "SLL",
@@ -2006,7 +2137,8 @@
                 "iso4217Id": "694",
                 "code": "SL"
             }
-        ]
+        ],
+        "issuingCountryCode": "SL"
     },
     {
         "code": "SGD",
@@ -2018,7 +2150,8 @@
                 "iso4217Id": "702",
                 "code": "SG"
             }
-        ]
+        ],
+        "issuingCountryCode": "SG"
     },
     {
         "code": "SBD",
@@ -2030,7 +2163,8 @@
                 "iso4217Id": "090",
                 "code": "SB"
             }
-        ]
+        ],
+        "issuingCountryCode": "SB"
     },
     {
         "code": "SOS",
@@ -2042,7 +2176,8 @@
                 "iso4217Id": "706",
                 "code": "SO"
             }
-        ]
+        ],
+        "issuingCountryCode": "SO"
     },
     {
         "code": "SSP",
@@ -2054,7 +2189,8 @@
                 "iso4217Id": "728",
                 "code": "SS"
             }
-        ]
+        ],
+        "issuingCountryCode": "SS"
     },
     {
         "code": "LKR",
@@ -2066,7 +2202,8 @@
                 "iso4217Id": "144",
                 "code": "LK"
             }
-        ]
+        ],
+        "issuingCountryCode": "LK"
     },
     {
         "code": "SDG",
@@ -2078,7 +2215,8 @@
                 "iso4217Id": "938",
                 "code": "SD"
             }
-        ]
+        ],
+        "issuingCountryCode": "SD"
     },
     {
         "code": "SRD",
@@ -2090,7 +2228,8 @@
                 "iso4217Id": "968",
                 "code": "SR"
             }
-        ]
+        ],
+        "issuingCountryCode": "SR"
     },
     {
         "code": "SZL",
@@ -2102,7 +2241,8 @@
                 "iso4217Id": "748",
                 "code": "SZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "SZ"
     },
     {
         "code": "SEK",
@@ -2114,7 +2254,8 @@
                 "iso4217Id": "752",
                 "code": "SE"
             }
-        ]
+        ],
+        "issuingCountryCode": "SE"
     },
     {
         "code": "SYP",
@@ -2126,7 +2267,8 @@
                 "iso4217Id": "760",
                 "code": "SY"
             }
-        ]
+        ],
+        "issuingCountryCode": "SY"
     },
     {
         "code": "TWD",
@@ -2138,7 +2280,8 @@
                 "iso4217Id": "901",
                 "code": "TW"
             }
-        ]
+        ],
+        "issuingCountryCode": "TW"
     },
     {
         "code": "TJS",
@@ -2150,7 +2293,8 @@
                 "iso4217Id": "972",
                 "code": "TJ"
             }
-        ]
+        ],
+        "issuingCountryCode": "TJ"
     },
     {
         "code": "TZS",
@@ -2162,7 +2306,8 @@
                 "iso4217Id": "834",
                 "code": "TZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "TZ"
     },
     {
         "code": "THB",
@@ -2174,7 +2319,8 @@
                 "iso4217Id": "764",
                 "code": "TH"
             }
-        ]
+        ],
+        "issuingCountryCode": "TH"
     },
     {
         "code": "TOP",
@@ -2186,7 +2332,8 @@
                 "iso4217Id": "776",
                 "code": "TO"
             }
-        ]
+        ],
+        "issuingCountryCode": "TO"
     },
     {
         "code": "TTD",
@@ -2198,7 +2345,8 @@
                 "iso4217Id": "780",
                 "code": "TT"
             }
-        ]
+        ],
+        "issuingCountryCode": "TT"
     },
     {
         "code": "TND",
@@ -2210,7 +2358,8 @@
                 "iso4217Id": "788",
                 "code": "TN"
             }
-        ]
+        ],
+        "issuingCountryCode": "TN"
     },
     {
         "code": "TRY",
@@ -2222,7 +2371,8 @@
                 "iso4217Id": "949",
                 "code": "TR"
             }
-        ]
+        ],
+        "issuingCountryCode": "TR"
     },
     {
         "code": "TMT",
@@ -2234,7 +2384,8 @@
                 "iso4217Id": "934",
                 "code": "TM"
             }
-        ]
+        ],
+        "issuingCountryCode": "TM"
     },
     {
         "code": "UGX",
@@ -2246,7 +2397,8 @@
                 "iso4217Id": "800",
                 "code": "UG"
             }
-        ]
+        ],
+        "issuingCountryCode": "UG"
     },
     {
         "code": "UAH",
@@ -2258,7 +2410,8 @@
                 "iso4217Id": "980",
                 "code": "UA"
             }
-        ]
+        ],
+        "issuingCountryCode": "UA"
     },
     {
         "code": "AED",
@@ -2270,7 +2423,8 @@
                 "iso4217Id": "784",
                 "code": "AE"
             }
-        ]
+        ],
+        "issuingCountryCode": "AE"
     },
     {
         "code": "UYU",
@@ -2282,7 +2436,8 @@
                 "iso4217Id": "858",
                 "code": "UY"
             }
-        ]
+        ],
+        "issuingCountryCode": "UY"
     },
     {
         "code": "UZS",
@@ -2294,7 +2449,8 @@
                 "iso4217Id": "860",
                 "code": "UZ"
             }
-        ]
+        ],
+        "issuingCountryCode": "UZ"
     },
     {
         "code": "VUV",
@@ -2306,7 +2462,8 @@
                 "iso4217Id": "548",
                 "code": "VU"
             }
-        ]
+        ],
+        "issuingCountryCode": "VU"
     },
     {
         "code": "VEF",
@@ -2318,7 +2475,8 @@
                 "iso4217Id": "937",
                 "code": "VE"
             }
-        ]
+        ],
+        "issuingCountryCode": "VE"
     },
     {
         "code": "VND",
@@ -2330,7 +2488,8 @@
                 "iso4217Id": "704",
                 "code": "VN"
             }
-        ]
+        ],
+        "issuingCountryCode": "VN"
     },
     {
         "code": "YER",
@@ -2342,7 +2501,8 @@
                 "iso4217Id": "886",
                 "code": "YE"
             }
-        ]
+        ],
+        "issuingCountryCode": "YE"
     },
     {
         "code": "ZMW",
@@ -2354,7 +2514,8 @@
                 "iso4217Id": "967",
                 "code": "ZM"
             }
-        ]
+        ],
+        "issuingCountryCode": "ZM"
     },
     {
         "code": "ZWL",
@@ -2366,6 +2527,7 @@
                 "iso4217Id": "932",
                 "code": "ZW"
             }
-        ]
+        ],
+        "issuingCountryCode": "ZW"
     }
 ]

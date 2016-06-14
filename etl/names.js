@@ -80,7 +80,5 @@ module.exports = function() {
     .then(convertAndFilter)
     .then(friendlyNames)
     .then(etlCommon.saveToIntermediateFactory('currency-names.json'))
-    // TODO stop writing to the generated directory before the etl is done
-    .then(etlCommon.saveToGeneratedFactory('currencies.json'))
     .catch((err) => console.log('Error', err, err.stack));
 }
