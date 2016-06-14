@@ -159,7 +159,7 @@
     },
     {
         "code": "ALL",
-        "name": "Lek",
+        "name": "Albanian Lek",
         "minorUnits": "2",
         "countries": [
             {
@@ -264,7 +264,7 @@
     },
     {
         "code": "AOA",
-        "name": "Kwanza",
+        "name": "Angolan Kwanza",
         "minorUnits": "2",
         "countries": [
             {
@@ -419,7 +419,7 @@
     },
     {
         "code": "BDT",
-        "name": "Taka",
+        "name": "Bangladeshi Taka",
         "minorUnits": "2",
         "countries": [
             {
@@ -528,7 +528,7 @@
     },
     {
         "code": "BTN",
-        "name": "Ngultrum",
+        "name": "Bhutanese Ngultrum",
         "minorUnits": "2",
         "countries": [
             {
@@ -539,7 +539,7 @@
     },
     {
         "code": "BOB",
-        "name": "Boliviano",
+        "name": "Bolivian Boliviano",
         "minorUnits": "2",
         "countries": [
             {
@@ -561,7 +561,7 @@
     },
     {
         "code": "BWP",
-        "name": "Pula",
+        "name": "Botswana Pula",
         "minorUnits": "2",
         "countries": [
             {
@@ -646,7 +646,7 @@
     },
     {
         "code": "KHR",
-        "name": "Riel",
+        "name": "Cambodian Riel",
         "minorUnits": "2",
         "countries": [
             {
@@ -803,7 +803,7 @@
     },
     {
         "code": "HRK",
-        "name": "Kuna",
+        "name": "Croatian Kuna",
         "minorUnits": "2",
         "countries": [
             {
@@ -925,7 +925,7 @@
     },
     {
         "code": "ERN",
-        "name": "Nakfa",
+        "name": "Eritrean Nakfa",
         "minorUnits": "2",
         "countries": [
             {
@@ -988,7 +988,7 @@
     },
     {
         "code": "GMD",
-        "name": "Dalasi",
+        "name": "Gambian Dalasi",
         "minorUnits": "2",
         "countries": [
             {
@@ -999,7 +999,7 @@
     },
     {
         "code": "GEL",
-        "name": "Lari",
+        "name": "Georgian Lari",
         "minorUnits": "2",
         "countries": [
             {
@@ -1032,7 +1032,7 @@
     },
     {
         "code": "GTQ",
-        "name": "Quetzal",
+        "name": "Guatemalan Quetzal",
         "minorUnits": "2",
         "countries": [
             {
@@ -1088,7 +1088,7 @@
     },
     {
         "code": "HTG",
-        "name": "Gourde",
+        "name": "Haitian Gourde",
         "minorUnits": "2",
         "countries": [
             {
@@ -1099,7 +1099,7 @@
     },
     {
         "code": "HNL",
-        "name": "Lempira",
+        "name": "Honduran Lempira",
         "minorUnits": "2",
         "countries": [
             {
@@ -1121,7 +1121,7 @@
     },
     {
         "code": "HUF",
-        "name": "Forint",
+        "name": "Hungarian Forint",
         "minorUnits": "2",
         "countries": [
             {
@@ -1143,7 +1143,7 @@
     },
     {
         "code": "IDR",
-        "name": "Rupiah",
+        "name": "Indonesian Rupiah",
         "minorUnits": "2",
         "countries": [
             {
@@ -1198,7 +1198,7 @@
     },
     {
         "code": "JPY",
-        "name": "Yen",
+        "name": "Japanese Yen",
         "minorUnits": "0",
         "countries": [
             {
@@ -1220,7 +1220,7 @@
     },
     {
         "code": "KZT",
-        "name": "Tenge",
+        "name": "Kazakhstani Tenge",
         "minorUnits": "2",
         "countries": [
             {
@@ -1253,7 +1253,7 @@
     },
     {
         "code": "KRW",
-        "name": "Won",
+        "name": "South Korean Won",
         "minorUnits": "0",
         "countries": [
             {
@@ -1275,7 +1275,7 @@
     },
     {
         "code": "KGS",
-        "name": "Som",
+        "name": "Kyrgyzstani Som",
         "minorUnits": "2",
         "countries": [
             {
@@ -1286,7 +1286,7 @@
     },
     {
         "code": "LAK",
-        "name": "Kip",
+        "name": "Lao Kip",
         "minorUnits": "2",
         "countries": [
             {
@@ -1308,7 +1308,7 @@
     },
     {
         "code": "LSL",
-        "name": "Loti",
+        "name": "Lasotho Loti",
         "minorUnits": "2",
         "countries": [
             {
@@ -1319,7 +1319,7 @@
     },
     {
         "code": "ZAR",
-        "name": "Rand",
+        "name": "South African Rand",
         "minorUnits": "2",
         "countries": [
             {
@@ -1375,7 +1375,7 @@
     },
     {
         "code": "MOP",
-        "name": "Pataca",
+        "name": "Macau Pataca",
         "minorUnits": "2",
         "countries": [
             {
@@ -1386,7 +1386,7 @@
     },
     {
         "code": "MKD",
-        "name": "Denar",
+        "name": "Macedonian Denar",
         "minorUnits": "2",
         "countries": [
             {
@@ -1430,7 +1430,7 @@
     },
     {
         "code": "MVR",
-        "name": "Rufiyaa",
+        "name": "Maldivian Rufiyaa",
         "minorUnits": "2",
         "countries": [
             {
@@ -1441,7 +1441,7 @@
     },
     {
         "code": "MRO",
-        "name": "Ouguiya",
+        "name": "Mauritanian Ouguiya",
         "minorUnits": "2",
         "countries": [
             {
@@ -1485,7 +1485,7 @@
     },
     {
         "code": "MNT",
-        "name": "Tugrik",
+        "name": "Mongolian Tugrik",
         "minorUnits": "2",
         "countries": [
             {
@@ -1522,7 +1522,7 @@
     },
     {
         "code": "MMK",
-        "name": "Kyat",
+        "name": "Burmese Kyat",
         "minorUnits": "2",
         "countries": [
             {
@@ -1566,7 +1566,7 @@
     },
     {
         "code": "NGN",
-        "name": "Naira",
+        "name": "Nigerian Naira",
         "minorUnits": "2",
         "countries": [
             {
@@ -1599,7 +1599,7 @@
     },
     {
         "code": "PAB",
-        "name": "Balboa",
+        "name": "Panamanian Balboa",
         "minorUnits": "2",
         "countries": [
             {
@@ -1610,7 +1610,7 @@
     },
     {
         "code": "PGK",
-        "name": "Kina",
+        "name": "Papua New Guinean Kina",
         "minorUnits": "2",
         "countries": [
             {
@@ -1621,7 +1621,7 @@
     },
     {
         "code": "PYG",
-        "name": "Guarani",
+        "name": "Paraguayan Guarani",
         "minorUnits": "0",
         "countries": [
             {
@@ -1632,7 +1632,7 @@
     },
     {
         "code": "PEN",
-        "name": "Sol",
+        "name": "Peruvian Sol",
         "minorUnits": "2",
         "countries": [
             {
@@ -1654,7 +1654,7 @@
     },
     {
         "code": "PLN",
-        "name": "Zloty",
+        "name": "Polish Zloty",
         "minorUnits": "2",
         "countries": [
             {
@@ -1720,7 +1720,7 @@
     },
     {
         "code": "WST",
-        "name": "Tala",
+        "name": "Samoan Tala",
         "minorUnits": "2",
         "countries": [
             {
@@ -1731,7 +1731,7 @@
     },
     {
         "code": "STD",
-        "name": "Dobra",
+        "name": "Sao Tomean Dobra",
         "minorUnits": "2",
         "countries": [
             {
@@ -1775,7 +1775,7 @@
     },
     {
         "code": "SLL",
-        "name": "Leone",
+        "name": "Sierra Leonean Leone",
         "minorUnits": "2",
         "countries": [
             {
@@ -1863,7 +1863,7 @@
     },
     {
         "code": "SZL",
-        "name": "Lilangeni",
+        "name": "Swazi Lilangeni",
         "minorUnits": "2",
         "countries": [
             {
@@ -1907,7 +1907,7 @@
     },
     {
         "code": "TJS",
-        "name": "Somoni",
+        "name": "Tajikistani Somoni",
         "minorUnits": "2",
         "countries": [
             {
@@ -1929,7 +1929,7 @@
     },
     {
         "code": "THB",
-        "name": "Baht",
+        "name": "Thai Baht",
         "minorUnits": "2",
         "countries": [
             {
@@ -1940,7 +1940,7 @@
     },
     {
         "code": "TOP",
-        "name": "Pa’anga",
+        "name": "Tongan Pa’anga",
         "minorUnits": "2",
         "countries": [
             {
@@ -2006,7 +2006,7 @@
     },
     {
         "code": "UAH",
-        "name": "Hryvnia",
+        "name": "Ukrainian Hryvnia",
         "minorUnits": "2",
         "countries": [
             {
@@ -2050,7 +2050,7 @@
     },
     {
         "code": "VUV",
-        "name": "Vatu",
+        "name": "Vanuatu Vatu",
         "minorUnits": "0",
         "countries": [
             {
@@ -2061,7 +2061,7 @@
     },
     {
         "code": "VEF",
-        "name": "Bolívar",
+        "name": "Venezuelan Bolívar",
         "minorUnits": "2",
         "countries": [
             {
@@ -2072,7 +2072,7 @@
     },
     {
         "code": "VND",
-        "name": "Dong",
+        "name": "Vietnamese Dong",
         "minorUnits": "0",
         "countries": [
             {

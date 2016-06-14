@@ -57,12 +57,30 @@ function convertAndFilter(doc) {
   return currencies;
 }
 
+function mergeNamePrefixes(currencies, prefixes) {
+  currencies.forEach((currency) => {
+    if(prefixes[currency.code]) {
+      currency.name = prefixes[currency.code] + ' ' + currency.name;
+      console.log(currency.code, currency.name);
+    }
+  });
+  return currencies;
+}
+
+function friendlyNames(currencies) {
+  // The official currency name is the Tugrik, but show Mongolian Tugrik.
+  return etlCommon.readManualEntries('name-prefixes.json')
+    .then((prefixes) => mergeNamePrefixes(currencies, prefixes));
+}
+
 module.exports = function() {
   return etlCommon.download('http://www.currency-iso.org/dam/downloads/lists/list_one.xml')
     .then(etlCommon.saveToDownloadsFactory('currency-names.xml'))
     .then(xmlToObj)
     .then(convertAndFilter)
+    .then(friendlyNames)
     .then(etlCommon.saveToIntermediateFactory('currency-names.json'))
+    // TODO stop writing to the generated directory before the etl is done
     .then(etlCommon.saveToGeneratedFactory('currencies.json'))
     .catch((err) => console.log('Error', err, err.stack));
 }
