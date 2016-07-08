@@ -136,6 +136,18 @@ function assignIssuingCountry(currencies) {
     });
 }
 
+function countCoveredCountries(currencies) {
+  // TODO count the countries
+
+  console.log('countCoveredCountries for', currencies.length, 'currencies.');
+  function sumCountryReducer(sum, currency) { return sum + currency.countries.length }
+  let total = currencies.reduce(sumCountryReducer, 0);
+  console.log('countCoveredCountries found', total, 'countries.');
+  // Sadly, 254 is more countries than exist. How to message this when marketing?
+
+  return currencies;
+}
+
 module.exports = function() {
   return etlCommon.download('http://opengeocode.org/download/countrynames.txt')
     .then(etlCommon.saveToDownloadsFactory('country-codes.txt'))
@@ -146,6 +158,7 @@ module.exports = function() {
     .then(etlCommon.saveToIntermediateFactory('currencies-with-country-codes.json'))
     .then(assignIssuingCountry)
     .then(etlCommon.saveToIntermediateFactory('currencies-with-issuing-country.json'))
+    .then(countCoveredCountries)
     // For now, this is the final product.
     .then(etlCommon.saveToGeneratedFactory('currencies.json'))
     .catch((err) => console.log('Error', err, err.stack));
